@@ -1,0 +1,1558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0642BCE52579262A007FE908 /* Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0642BCE42579262A007FE908 /* Test2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0631C79C2578D9AF00448272 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0642BA462578DD74007FE908 /* XCTestCase+XCUIInterruptionMonitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+XCUIInterruptionMonitoring.h"; sourceTree = "<group>"; };
+		0642BA472578DD74007FE908 /* XCTestObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObservation.h; sourceTree = "<group>"; };
+		0642BA482578DD74007FE908 /* XCTWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTWaiter.h; sourceTree = "<group>"; };
+		0642BA492578DD74007FE908 /* XCTMeasureOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTMeasureOptions.h; sourceTree = "<group>"; };
+		0642BA4A2578DD74007FE908 /* XCTestAssertionsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestAssertionsImpl.h; sourceTree = "<group>"; };
+		0642BA4B2578DD74007FE908 /* XCUISiriService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUISiriService.h; sourceTree = "<group>"; };
+		0642BA4C2578DD74007FE908 /* XCUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplication.h; sourceTree = "<group>"; };
+		0642BA4D2578DD74007FE908 /* XCTestObservationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObservationCenter.h; sourceTree = "<group>"; };
+		0642BA4E2578DD74007FE908 /* XCTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObserver.h; sourceTree = "<group>"; };
+		0642BA4F2578DD74007FE908 /* XCUIScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIScreenshot.h; sourceTree = "<group>"; };
+		0642BA502578DD74007FE908 /* XCUIScreenshotProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIScreenshotProviding.h; sourceTree = "<group>"; };
+		0642BA512578DD74007FE908 /* XCUIElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElement.h; sourceTree = "<group>"; };
+		0642BA522578DD74007FE908 /* XCUIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIDevice.h; sourceTree = "<group>"; };
+		0642BA532578DD74007FE908 /* XCUIKeyboardKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIKeyboardKeys.h; sourceTree = "<group>"; };
+		0642BA542578DD74007FE908 /* XCTActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTActivity.h; sourceTree = "<group>"; };
+		0642BA552578DD74007FE908 /* XCUIElementTypeQueryProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementTypeQueryProvider.h; sourceTree = "<group>"; };
+		0642BA562578DD74007FE908 /* XCTMetric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTMetric.h; sourceTree = "<group>"; };
+		0642BA572578DD74007FE908 /* XCTDarwinNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTDarwinNotificationExpectation.h; sourceTree = "<group>"; };
+		0642BA582578DD74007FE908 /* XCUICoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUICoordinate.h; sourceTree = "<group>"; };
+		0642BA592578DD74007FE908 /* XCUIElementTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementTypes.h; sourceTree = "<group>"; };
+		0642BA5A2578DD74007FE908 /* XCTestDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestDefines.h; sourceTree = "<group>"; };
+		0642BA5B2578DD74007FE908 /* XCTNSPredicateExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTNSPredicateExpectation.h; sourceTree = "<group>"; };
+		0642BA5C2578DD74007FE908 /* XCUIElementQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementQuery.h; sourceTree = "<group>"; };
+		0642BA5D2578DD74007FE908 /* XCTAttachmentLifetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTAttachmentLifetime.h; sourceTree = "<group>"; };
+		0642BA5E2578DD74007FE908 /* XCTestCase+AsynchronousTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+AsynchronousTesting.h"; sourceTree = "<group>"; };
+		0642BA5F2578DD74007FE908 /* XCAbstractTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAbstractTest.h; sourceTree = "<group>"; };
+		0642BA602578DD74007FE908 /* XCTestSuiteRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuiteRun.h; sourceTree = "<group>"; };
+		0642BA612578DD74007FE908 /* XCTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuite.h; sourceTree = "<group>"; };
+		0642BA622578DD74007FE908 /* XCUIRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRemote.h; sourceTree = "<group>"; };
+		0642BA632578DD74007FE908 /* XCTAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTAttachment.h; sourceTree = "<group>"; };
+		0642BA642578DD74007FE908 /* XCTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTContext.h; sourceTree = "<group>"; };
+		0642BA652578DD74007FE908 /* XCUIElementAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementAttributes.h; sourceTree = "<group>"; };
+		0642BA662578DD74007FE908 /* XCTestAssertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestAssertions.h; sourceTree = "<group>"; };
+		0642BA672578DD74007FE908 /* XCTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestLog.h; sourceTree = "<group>"; };
+		0642BA682578DD74007FE908 /* XCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTest.h; sourceTree = "<group>"; };
+		0642BA692578DD74007FE908 /* XCUIScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIScreen.h; sourceTree = "<group>"; };
+		0642BA6A2578DD74007FE908 /* XCTestExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestExpectation.h; sourceTree = "<group>"; };
+		0642BA6B2578DD74007FE908 /* XCTest.apinotes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.apinotes; path = XCTest.apinotes; sourceTree = "<group>"; };
+		0642BA6C2578DD74007FE908 /* XCTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestRun.h; sourceTree = "<group>"; };
+		0642BA6D2578DD74007FE908 /* XCTKVOExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTKVOExpectation.h; sourceTree = "<group>"; };
+		0642BA6E2578DD74007FE908 /* XCTestProbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestProbe.h; sourceTree = "<group>"; };
+		0642BA6F2578DD74007FE908 /* XCTNSNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTNSNotificationExpectation.h; sourceTree = "<group>"; };
+		0642BA702578DD74007FE908 /* XCTestCaseRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCaseRun.h; sourceTree = "<group>"; };
+		0642BA712578DD74007FE908 /* XCTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCase.h; sourceTree = "<group>"; };
+		0642BA722578DD74007FE908 /* XCTestErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestErrors.h; sourceTree = "<group>"; };
+		0642BA7A25791DBC007FE908 /* XCTWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTWaiter.h; sourceTree = "<group>"; };
+		0642BA7B25791DBC007FE908 /* XCDeviceEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDeviceEvent.h; sourceTree = "<group>"; };
+		0642BA7C25791DBC007FE908 /* _XCTestExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BA7D25791DBC007FE908 /* XCSourceCodeRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeRecording.h; sourceTree = "<group>"; };
+		0642BA7E25791DBC007FE908 /* XCTestObservation-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestObservation-Protocol.h"; sourceTree = "<group>"; };
+		0642BA7F25791DBC007FE908 /* XCUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplication.h; sourceTree = "<group>"; };
+		0642BA8025791DBC007FE908 /* _XCTNSNotificationExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTNSNotificationExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BA8125791DBC007FE908 /* XCTestObservationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObservationCenter.h; sourceTree = "<group>"; };
+		0642BA8225791DBC007FE908 /* XCSourceCodeTreeNodeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeTreeNodeEnumerator.h; sourceTree = "<group>"; };
+		0642BA8325791DBC007FE908 /* XCTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObserver.h; sourceTree = "<group>"; };
+		0642BA8425791DBC007FE908 /* XCTRunnerDaemonSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTRunnerDaemonSession.h; sourceTree = "<group>"; };
+		0642BA8525791DBC007FE908 /* XCPointerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPointerEvent.h; sourceTree = "<group>"; };
+		0642BA8625791DBC007FE908 /* XCTTestRunSessionDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTTestRunSessionDelegate-Protocol.h"; sourceTree = "<group>"; };
+		0642BA8725791DBC007FE908 /* _XCTWaiterImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTWaiterImpl.h; sourceTree = "<group>"; };
+		0642BA8825791DBC007FE908 /* XCUIElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElement.h; sourceTree = "<group>"; };
+		0642BA8925791DBC007FE908 /* XCTestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestConfiguration.h; sourceTree = "<group>"; };
+		0642BA8A25791DBC007FE908 /* _XCTestCaseInterruptionException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestCaseInterruptionException.h; sourceTree = "<group>"; };
+		0642BA8B25791DBC007FE908 /* XCUIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIDevice.h; sourceTree = "<group>"; };
+		0642BA8C25791DBC007FE908 /* UIGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BA8D25791DBC007FE908 /* XCTestManager_IDEInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_IDEInterface-Protocol.h"; sourceTree = "<group>"; };
+		0642BA8E25791DBC007FE908 /* XCKeyboardKeyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardKeyMap.h; sourceTree = "<group>"; };
+		0642BA8F25791DBC007FE908 /* XCEventGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCEventGenerator.h; sourceTree = "<group>"; };
+		0642BA9025791DBC007FE908 /* XCTRunnerIDESession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTRunnerIDESession.h; sourceTree = "<group>"; };
+		0642BA9125791DBC007FE908 /* XCAXClient_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAXClient_iOS.h; sourceTree = "<group>"; };
+		0642BA9225791DBC007FE908 /* XCElementSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCElementSnapshot.h; sourceTree = "<group>"; };
+		0642BA9325791DBC007FE908 /* XCApplicationMonitor_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationMonitor_iOS.h; sourceTree = "<group>"; };
+		0642BA9425791DBC007FE908 /* XCTWaiterDelegatePrivate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTWaiterDelegatePrivate-Protocol.h"; sourceTree = "<group>"; };
+		0642BA9525791DBC007FE908 /* XCKeyboardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardLayout.h; sourceTree = "<group>"; };
+		0642BA9625791DBC007FE908 /* XCTMetric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTMetric.h; sourceTree = "<group>"; };
+		0642BA9725791DBC007FE908 /* XCTDarwinNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTDarwinNotificationExpectation.h; sourceTree = "<group>"; };
+		0642BA9825791DBC007FE908 /* XCTNSPredicateExpectationObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTNSPredicateExpectationObject-Protocol.h"; sourceTree = "<group>"; };
+		0642BA9925791DBC007FE908 /* XCTestMisuseObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestMisuseObserver.h; sourceTree = "<group>"; };
+		0642BA9A25791DBC007FE908 /* _XCTNSPredicateExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTNSPredicateExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BA9B25791DBC007FE908 /* XCUICoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUICoordinate.h; sourceTree = "<group>"; };
+		0642BA9C25791DBC007FE908 /* UISwipeGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwipeGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BA9D25791DBC007FE908 /* XCActivityRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCActivityRecord.h; sourceTree = "<group>"; };
+		0642BA9E25791DBC007FE908 /* XCTWaiterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTWaiterManager.h; sourceTree = "<group>"; };
+		0642BA9F25791DBC007FE908 /* XCTestDriverInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestDriverInterface-Protocol.h"; sourceTree = "<group>"; };
+		0642BAA025791DBC007FE908 /* XCAccessibilityElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAccessibilityElement.h; sourceTree = "<group>"; };
+		0642BAA125791DBC007FE908 /* _XCKVOExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCKVOExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BAA225791DBC007FE908 /* XCTNSPredicateExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTNSPredicateExpectation.h; sourceTree = "<group>"; };
+		0642BAA325791DBC007FE908 /* XCUIElementQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementQuery.h; sourceTree = "<group>"; };
+		0642BAA425791DBC007FE908 /* XCUIRecorderTimingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderTimingMessage.h; sourceTree = "<group>"; };
+		0642BAA525791DBC007FE908 /* XCKeyMappingPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyMappingPath.h; sourceTree = "<group>"; };
+		0642BAA625791DBC007FE908 /* XCTestManager_TestsInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_TestsInterface-Protocol.h"; sourceTree = "<group>"; };
+		0642BAA725791DBC007FE908 /* XCSymbolicationRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSymbolicationRecord.h; sourceTree = "<group>"; };
+		0642BAA825791DBC007FE908 /* XCUIRecorderNodeFinderMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderNodeFinderMatch.h; sourceTree = "<group>"; };
+		0642BAA925791DBC007FE908 /* XCUIRecorderNodeFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderNodeFinder.h; sourceTree = "<group>"; };
+		0642BAAA25791DBC007FE908 /* XCUIApplicationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplicationImpl.h; sourceTree = "<group>"; };
+		0642BAAB25791DBC007FE908 /* XCTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestContext.h; sourceTree = "<group>"; };
+		0642BAAC25791DBC007FE908 /* _XCTestSuiteImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestSuiteImplementation.h; sourceTree = "<group>"; };
+		0642BAAD25791DBC007FE908 /* _XCTDarwinNotificationExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTDarwinNotificationExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BAAE25791DBC007FE908 /* XCApplicationQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationQuery.h; sourceTree = "<group>"; };
+		0642BAAF25791DBC007FE908 /* XCTestSuiteRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuiteRun.h; sourceTree = "<group>"; };
+		0642BAB025791DBC007FE908 /* XCUIApplicationProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplicationProcess.h; sourceTree = "<group>"; };
+		0642BAB125791DBC007FE908 /* XCTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuite.h; sourceTree = "<group>"; };
+		0642BAB225791DBC007FE908 /* XCUIHitPointResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIHitPointResult.h; sourceTree = "<group>"; };
+		0642BAB325791DBC007FE908 /* XCTWaiterManagement-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTWaiterManagement-Protocol.h"; sourceTree = "<group>"; };
+		0642BAB425791DBC007FE908 /* XCPointerEventPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPointerEventPath.h; sourceTree = "<group>"; };
+		0642BAB525791DBC007FE908 /* UILongPressGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILongPressGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BAB625791DBC007FE908 /* XCUIElementAsynchronousHandlerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementAsynchronousHandlerWrapper.h; sourceTree = "<group>"; };
+		0642BAB725791DBC007FE908 /* XCTestCaseSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCaseSuite.h; sourceTree = "<group>"; };
+		0642BAB825791DBC007FE908 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		0642BAB925791DBC007FE908 /* UIPanGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BABA25791DBC007FE908 /* XCTAsyncActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTAsyncActivity.h; sourceTree = "<group>"; };
+		0642BABB25791DBC007FE908 /* XCTAXClient-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTAXClient-Protocol.h"; sourceTree = "<group>"; };
+		0642BABC25791DBC007FE908 /* XCTAutomationTarget-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTAutomationTarget-Protocol.h"; sourceTree = "<group>"; };
+		0642BABD25791DBC007FE908 /* XCTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestLog.h; sourceTree = "<group>"; };
+		0642BABE25791DBC007FE908 /* XCTWaiterDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTWaiterDelegate-Protocol.h"; sourceTree = "<group>"; };
+		0642BABF25791DBC007FE908 /* XCTestManager_ManagerInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_ManagerInterface-Protocol.h"; sourceTree = "<group>"; };
+		0642BAC025791DBC007FE908 /* XCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTest.h; sourceTree = "<group>"; };
+		0642BAC125791DBC007FE908 /* _XCTestImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestImplementation.h; sourceTree = "<group>"; };
+		0642BAC225791DBC007FE908 /* XCSynthesizedEventRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSynthesizedEventRecord.h; sourceTree = "<group>"; };
+		0642BAC325791DBC007FE908 /* _XCTestObservationCenterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestObservationCenterImplementation.h; sourceTree = "<group>"; };
+		0642BAC425791DBC007FE908 /* NSValue-XCTestAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue-XCTestAdditions.h"; sourceTree = "<group>"; };
+		0642BAC525791DBC007FE908 /* XCSourceCodeTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeTreeNode.h; sourceTree = "<group>"; };
+		0642BAC625791DBC007FE908 /* XCTRunnerAutomationSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTRunnerAutomationSession.h; sourceTree = "<group>"; };
+		0642BAC725791DBC007FE908 /* XCUIElementHitPointCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementHitPointCoordinate.h; sourceTree = "<group>"; };
+		0642BAC825791DBC007FE908 /* _XCTestCaseImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestCaseImplementation.h; sourceTree = "<group>"; };
+		0642BAC925791DBC007FE908 /* XCUIScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIScreen.h; sourceTree = "<group>"; };
+		0642BACA25791DBC007FE908 /* XCTestExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestExpectation.h; sourceTree = "<group>"; };
+		0642BACB25791DBC007FE908 /* NSString-XCTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-XCTAdditions.h"; sourceTree = "<group>"; };
+		0642BACC25791DBC007FE908 /* XCSymbolicatorHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSymbolicatorHolder.h; sourceTree = "<group>"; };
+		0642BACD25791DBC007FE908 /* XCTAsyncActivity-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTAsyncActivity-Protocol.h"; sourceTree = "<group>"; };
+		0642BACE25791DBC007FE908 /* XCTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestRun.h; sourceTree = "<group>"; };
+		0642BACF25791DBC007FE908 /* XCTestContextScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestContextScope.h; sourceTree = "<group>"; };
+		0642BAD025791DBC007FE908 /* XCUIRecorderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderUtilities.h; sourceTree = "<group>"; };
+		0642BAD125791DBC007FE908 /* _XCInternalTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCInternalTestRun.h; sourceTree = "<group>"; };
+		0642BAD225791DBC007FE908 /* XCTKVOExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTKVOExpectation.h; sourceTree = "<group>"; };
+		0642BAD325791DBC007FE908 /* XCTestProbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestProbe.h; sourceTree = "<group>"; };
+		0642BAD425791DBC007FE908 /* XCTestExpectationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestExpectationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		0642BAD525791DBC007FE908 /* UITapGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BAD625791DBC007FE908 /* XCTNSNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTNSNotificationExpectation.h; sourceTree = "<group>"; };
+		0642BAD725791DBC007FE908 /* XCApplicationMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationMonitor.h; sourceTree = "<group>"; };
+		0642BAD825791DBC007FE908 /* XCTestCaseRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCaseRun.h; sourceTree = "<group>"; };
+		0642BAD925791DBC007FE908 /* XCTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCase.h; sourceTree = "<group>"; };
+		0642BADA25791DBC007FE908 /* UIPinchGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPinchGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BADB25791DBC007FE908 /* XCTUIApplicationMonitor-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTUIApplicationMonitor-Protocol.h"; sourceTree = "<group>"; };
+		0642BADC25791DBC007FE908 /* XCTestExpectationWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestExpectationWaiter.h; sourceTree = "<group>"; };
+		0642BADD25791DBC007FE908 /* XCTestWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestWaiter.h; sourceTree = "<group>"; };
+		0642BADE25791DBC007FE908 /* XCTTestRunSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTTestRunSession.h; sourceTree = "<group>"; };
+		0642BADF25791DBC007FE908 /* XCKeyboardInputSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardInputSolver.h; sourceTree = "<group>"; };
+		0642BAE025791DBC007FE908 /* XCTestDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestDriver.h; sourceTree = "<group>"; };
+		0642BAE125791DBC007FE908 /* XCDebugLogDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCDebugLogDelegate-Protocol.h"; sourceTree = "<group>"; };
+		0642BBC125792549007FE908 /* WebDriverAgentLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDriverAgentLib.h; sourceTree = "<group>"; };
+		0642BBC225792549007FE908 /* FBApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBApplication.h; sourceTree = "<group>"; };
+		0642BBC325792549007FE908 /* FBSpringboardApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSpringboardApplication.h; sourceTree = "<group>"; };
+		0642BBC425792549007FE908 /* FBAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAlert.m; sourceTree = "<group>"; };
+		0642BBC525792549007FE908 /* FBApplicationProcessProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBApplicationProcessProxy.h; sourceTree = "<group>"; };
+		0642BBC725792549007FE908 /* FBXPathCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXPathCreator.h; sourceTree = "<group>"; };
+		0642BBC825792549007FE908 /* FBElementTypeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementTypeTransformer.h; sourceTree = "<group>"; };
+		0642BBC925792549007FE908 /* FBClassChainQueryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBClassChainQueryParser.h; sourceTree = "<group>"; };
+		0642BBCA25792549007FE908 /* FBXCodeCompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXCodeCompatibility.m; sourceTree = "<group>"; };
+		0642BBCB25792549007FE908 /* FBXPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXPath.m; sourceTree = "<group>"; };
+		0642BBCC25792549007FE908 /* FBKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKeyboard.m; sourceTree = "<group>"; };
+		0642BBCD25792549007FE908 /* XCTestPrivateSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestPrivateSymbols.h; sourceTree = "<group>"; };
+		0642BBCE25792549007FE908 /* FBRunLoopSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRunLoopSpinner.h; sourceTree = "<group>"; };
+		0642BBCF25792549007FE908 /* FBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLogger.m; sourceTree = "<group>"; };
+		0642BBD025792549007FE908 /* FBElementHitPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementHitPoint.h; sourceTree = "<group>"; };
+		0642BBD125792549007FE908 /* FBXCTestDaemonsProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCTestDaemonsProxy.h; sourceTree = "<group>"; };
+		0642BBD225792549007FE908 /* FBXCTestCaseImplementationFailureHoldingProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXCTestCaseImplementationFailureHoldingProxy.m; sourceTree = "<group>"; };
+		0642BBD325792549007FE908 /* NSPredicate+FBFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPredicate+FBFormat.m"; sourceTree = "<group>"; };
+		0642BBD425792549007FE908 /* FBRuntimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRuntimeUtils.h; sourceTree = "<group>"; };
+		0642BBD525792549007FE908 /* FBFailureProofTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFailureProofTestCase.m; sourceTree = "<group>"; };
+		0642BBD625792549007FE908 /* FBErrorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBErrorBuilder.h; sourceTree = "<group>"; };
+		0642BBD725792549007FE908 /* FBMathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMathUtils.m; sourceTree = "<group>"; };
+		0642BBD825792549007FE908 /* FBDebugLogDelegateDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDebugLogDelegateDecorator.m; sourceTree = "<group>"; };
+		0642BBD925792549007FE908 /* FBPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPredicate.m; sourceTree = "<group>"; };
+		0642BBDA25792549007FE908 /* FBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConfiguration.h; sourceTree = "<group>"; };
+		0642BBDB25792549007FE908 /* FBElementHitPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementHitPoint.m; sourceTree = "<group>"; };
+		0642BBDC25792549007FE908 /* FBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLogger.h; sourceTree = "<group>"; };
+		0642BBDD25792549007FE908 /* XCTestPrivateSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTestPrivateSymbols.m; sourceTree = "<group>"; };
+		0642BBDE25792549007FE908 /* FBRunLoopSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRunLoopSpinner.m; sourceTree = "<group>"; };
+		0642BBDF25792549007FE908 /* FBKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKeyboard.h; sourceTree = "<group>"; };
+		0642BBE025792549007FE908 /* FBXPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXPath.h; sourceTree = "<group>"; };
+		0642BBE125792549007FE908 /* FBXCodeCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCodeCompatibility.h; sourceTree = "<group>"; };
+		0642BBE225792549007FE908 /* FBXPath-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBXPath-Private.h"; sourceTree = "<group>"; };
+		0642BBE325792549007FE908 /* FBClassChainQueryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBClassChainQueryParser.m; sourceTree = "<group>"; };
+		0642BBE425792549007FE908 /* FBXPathCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXPathCreator.m; sourceTree = "<group>"; };
+		0642BBE525792549007FE908 /* FBElementTypeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementTypeTransformer.m; sourceTree = "<group>"; };
+		0642BBE625792549007FE908 /* FBXCTestCaseImplementationFailureHoldingProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCTestCaseImplementationFailureHoldingProxy.h; sourceTree = "<group>"; };
+		0642BBE725792549007FE908 /* FBXCTestDaemonsProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXCTestDaemonsProxy.m; sourceTree = "<group>"; };
+		0642BBE825792549007FE908 /* FBMathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMathUtils.h; sourceTree = "<group>"; };
+		0642BBE925792549007FE908 /* FBErrorBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBErrorBuilder.m; sourceTree = "<group>"; };
+		0642BBEA25792549007FE908 /* FBFailureProofTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFailureProofTestCase.h; sourceTree = "<group>"; };
+		0642BBEB25792549007FE908 /* FBRuntimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRuntimeUtils.m; sourceTree = "<group>"; };
+		0642BBEC25792549007FE908 /* NSPredicate+FBFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPredicate+FBFormat.h"; sourceTree = "<group>"; };
+		0642BBED25792549007FE908 /* FBConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBConfiguration.m; sourceTree = "<group>"; };
+		0642BBEE25792549007FE908 /* FBPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPredicate.h; sourceTree = "<group>"; };
+		0642BBEF25792549007FE908 /* FBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMacros.h; sourceTree = "<group>"; };
+		0642BBF025792549007FE908 /* FBDebugLogDelegateDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDebugLogDelegateDecorator.h; sourceTree = "<group>"; };
+		0642BBF125792549007FE908 /* FBApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBApplication.m; sourceTree = "<group>"; };
+		0642BBF325792549007FE908 /* FBInspectorCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBInspectorCommands.m; sourceTree = "<group>"; };
+		0642BBF425792549007FE908 /* FBFindElementCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFindElementCommands.m; sourceTree = "<group>"; };
+		0642BBF525792549007FE908 /* FBCustomCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCustomCommands.m; sourceTree = "<group>"; };
+		0642BBF625792549007FE908 /* FBOrientationCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOrientationCommands.h; sourceTree = "<group>"; };
+		0642BBF725792549007FE908 /* FBScreenshotCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBScreenshotCommands.h; sourceTree = "<group>"; };
+		0642BBF825792549007FE908 /* FBDebugCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDebugCommands.h; sourceTree = "<group>"; };
+		0642BBF925792549007FE908 /* FBAlertViewCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAlertViewCommands.h; sourceTree = "<group>"; };
+		0642BBFA25792549007FE908 /* FBUnknownCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUnknownCommands.h; sourceTree = "<group>"; };
+		0642BBFB25792549007FE908 /* FBTouchIDCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTouchIDCommands.h; sourceTree = "<group>"; };
+		0642BBFC25792549007FE908 /* FBSessionCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionCommands.h; sourceTree = "<group>"; };
+		0642BBFD25792549007FE908 /* FBElementCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementCommands.m; sourceTree = "<group>"; };
+		0642BBFE25792549007FE908 /* FBCustomCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCustomCommands.h; sourceTree = "<group>"; };
+		0642BBFF25792549007FE908 /* FBFindElementCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFindElementCommands.h; sourceTree = "<group>"; };
+		0642BC0025792549007FE908 /* FBInspectorCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBInspectorCommands.h; sourceTree = "<group>"; };
+		0642BC0125792549007FE908 /* FBAlertViewCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAlertViewCommands.m; sourceTree = "<group>"; };
+		0642BC0225792549007FE908 /* FBDebugCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDebugCommands.m; sourceTree = "<group>"; };
+		0642BC0325792549007FE908 /* FBOrientationCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBOrientationCommands.m; sourceTree = "<group>"; };
+		0642BC0425792549007FE908 /* FBScreenshotCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBScreenshotCommands.m; sourceTree = "<group>"; };
+		0642BC0525792549007FE908 /* FBUnknownCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUnknownCommands.m; sourceTree = "<group>"; };
+		0642BC0625792549007FE908 /* FBElementCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementCommands.h; sourceTree = "<group>"; };
+		0642BC0725792549007FE908 /* FBSessionCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionCommands.m; sourceTree = "<group>"; };
+		0642BC0825792549007FE908 /* FBTouchIDCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTouchIDCommands.m; sourceTree = "<group>"; };
+		0642BC0A25792549007FE908 /* FBElementCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementCache.m; sourceTree = "<group>"; };
+		0642BC0B25792549007FE908 /* FBWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBWebServer.h; sourceTree = "<group>"; };
+		0642BC0C25792549007FE908 /* FBResponseJSONPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBResponseJSONPayload.h; sourceTree = "<group>"; };
+		0642BC0D25792549007FE908 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		0642BC0E25792549007FE908 /* FBRouteRequest-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBRouteRequest-Private.h"; sourceTree = "<group>"; };
+		0642BC0F25792549007FE908 /* FBRouteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRouteRequest.h; sourceTree = "<group>"; };
+		0642BC1025792549007FE908 /* FBResponsePayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBResponsePayload.m; sourceTree = "<group>"; };
+		0642BC1125792549007FE908 /* FBExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBExceptionHandler.m; sourceTree = "<group>"; };
+		0642BC1225792549007FE908 /* FBElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElement.h; sourceTree = "<group>"; };
+		0642BC1325792549007FE908 /* FBElementUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementUtils.m; sourceTree = "<group>"; };
+		0642BC1425792549007FE908 /* FBRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRoute.h; sourceTree = "<group>"; };
+		0642BC1525792549007FE908 /* FBResponseFilePayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBResponseFilePayload.h; sourceTree = "<group>"; };
+		0642BC1625792549007FE908 /* FBResponseJSONPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBResponseJSONPayload.m; sourceTree = "<group>"; };
+		0642BC1725792549007FE908 /* FBWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBWebServer.m; sourceTree = "<group>"; };
+		0642BC1825792549007FE908 /* FBElementCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementCache.h; sourceTree = "<group>"; };
+		0642BC1925792549007FE908 /* FBCommandHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCommandHandler.h; sourceTree = "<group>"; };
+		0642BC1A25792549007FE908 /* FBExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBExceptionHandler.h; sourceTree = "<group>"; };
+		0642BC1B25792549007FE908 /* FBResponsePayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBResponsePayload.h; sourceTree = "<group>"; };
+		0642BC1C25792549007FE908 /* FBSession-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSession-Private.h"; sourceTree = "<group>"; };
+		0642BC1D25792549007FE908 /* FBRouteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRouteRequest.m; sourceTree = "<group>"; };
+		0642BC1E25792549007FE908 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSession.m; sourceTree = "<group>"; };
+		0642BC1F25792549007FE908 /* FBElementUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementUtils.h; sourceTree = "<group>"; };
+		0642BC2025792549007FE908 /* FBRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRoute.m; sourceTree = "<group>"; };
+		0642BC2125792549007FE908 /* FBCommandStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCommandStatus.h; sourceTree = "<group>"; };
+		0642BC2225792549007FE908 /* FBResponseFilePayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBResponseFilePayload.m; sourceTree = "<group>"; };
+		0642BC2325792549007FE908 /* FBApplicationProcessProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBApplicationProcessProxy.m; sourceTree = "<group>"; };
+		0642BC2525792549007FE908 /* XCUIElement+FBTyping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBTyping.h"; sourceTree = "<group>"; };
+		0642BC2625792549007FE908 /* XCUIElement+FBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBUtilities.m"; sourceTree = "<group>"; };
+		0642BC2725792549007FE908 /* XCElementSnapshot+FBHitPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCElementSnapshot+FBHitPoint.m"; sourceTree = "<group>"; };
+		0642BC2825792549007FE908 /* XCUIElement+FBPickerWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBPickerWheel.m"; sourceTree = "<group>"; };
+		0642BC2925792549007FE908 /* XCUIElement+FBScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBScrolling.m"; sourceTree = "<group>"; };
+		0642BC2A25792549007FE908 /* XCUIElement+FBIsVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBIsVisible.h"; sourceTree = "<group>"; };
+		0642BC2B25792549007FE908 /* XCUIElement+FBTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBTap.h"; sourceTree = "<group>"; };
+		0642BC2C25792549007FE908 /* XCUIElement+FBClassChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBClassChain.m"; sourceTree = "<group>"; };
+		0642BC2D25792549007FE908 /* XCUICoordinate+FBFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUICoordinate+FBFix.m"; sourceTree = "<group>"; };
+		0642BC2E25792549007FE908 /* XCUIElement+FBWebDriverAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBWebDriverAttributes.m"; sourceTree = "<group>"; };
+		0642BC2F25792549007FE908 /* XCUIElement+FBAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBAccessibility.h"; sourceTree = "<group>"; };
+		0642BC3025792549007FE908 /* NSString+FBVisualLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBVisualLength.m"; sourceTree = "<group>"; };
+		0642BC3125792549007FE908 /* NSExpression+FBFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSExpression+FBFormat.h"; sourceTree = "<group>"; };
+		0642BC3225792549007FE908 /* XCUIDevice+FBRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBRotation.h"; sourceTree = "<group>"; };
+		0642BC3325792549007FE908 /* XCUIDevice+FBHealthCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBHealthCheck.h"; sourceTree = "<group>"; };
+		0642BC3425792549007FE908 /* XCUIApplication+FBHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIApplication+FBHelpers.h"; sourceTree = "<group>"; };
+		0642BC3525792549007FE908 /* XCUIElement+FBUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBUID.h"; sourceTree = "<group>"; };
+		0642BC3625792549007FE908 /* XCUIElement+FBForceTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBForceTouch.m"; sourceTree = "<group>"; };
+		0642BC3725792549007FE908 /* NSString+FBXMLSafeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FBXMLSafeString.h"; sourceTree = "<group>"; };
+		0642BC3825792549007FE908 /* XCUIDevice+FBHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBHelpers.m"; sourceTree = "<group>"; };
+		0642BC3925792549007FE908 /* XCUIElement+FBFind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBFind.m"; sourceTree = "<group>"; };
+		0642BC3A25792549007FE908 /* XCElementSnapshot+FBHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCElementSnapshot+FBHelpers.m"; sourceTree = "<group>"; };
+		0642BC3B25792549007FE908 /* XCUIElement+FBScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBScrolling.h"; sourceTree = "<group>"; };
+		0642BC3C25792549007FE908 /* XCElementSnapshot+FBHitPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCElementSnapshot+FBHitPoint.h"; sourceTree = "<group>"; };
+		0642BC3D25792549007FE908 /* XCUIElement+FBPickerWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBPickerWheel.h"; sourceTree = "<group>"; };
+		0642BC3E25792549007FE908 /* XCUIElement+FBTyping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBTyping.m"; sourceTree = "<group>"; };
+		0642BC3F25792549007FE908 /* XCUIElement+FBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBUtilities.h"; sourceTree = "<group>"; };
+		0642BC4025792549007FE908 /* XCUIApplication+FBHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIApplication+FBHelpers.m"; sourceTree = "<group>"; };
+		0642BC4125792549007FE908 /* XCUIDevice+FBHealthCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBHealthCheck.m"; sourceTree = "<group>"; };
+		0642BC4225792549007FE908 /* NSExpression+FBFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSExpression+FBFormat.m"; sourceTree = "<group>"; };
+		0642BC4325792549007FE908 /* XCUIDevice+FBRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBRotation.m"; sourceTree = "<group>"; };
+		0642BC4425792549007FE908 /* NSString+FBVisualLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FBVisualLength.h"; sourceTree = "<group>"; };
+		0642BC4525792549007FE908 /* XCUIElement+FBAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBAccessibility.m"; sourceTree = "<group>"; };
+		0642BC4625792549007FE908 /* XCUIElement+FBWebDriverAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBWebDriverAttributes.h"; sourceTree = "<group>"; };
+		0642BC4725792549007FE908 /* XCUICoordinate+FBFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUICoordinate+FBFix.h"; sourceTree = "<group>"; };
+		0642BC4825792549007FE908 /* XCUIElement+FBClassChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBClassChain.h"; sourceTree = "<group>"; };
+		0642BC4925792549007FE908 /* XCUIElement+FBTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBTap.m"; sourceTree = "<group>"; };
+		0642BC4A25792549007FE908 /* XCUIElement+FBIsVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBIsVisible.m"; sourceTree = "<group>"; };
+		0642BC4B25792549007FE908 /* XCElementSnapshot+FBHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCElementSnapshot+FBHelpers.h"; sourceTree = "<group>"; };
+		0642BC4C25792549007FE908 /* XCUIElement+FBFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBFind.h"; sourceTree = "<group>"; };
+		0642BC4D25792549007FE908 /* XCUIDevice+FBHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBHelpers.h"; sourceTree = "<group>"; };
+		0642BC4E25792549007FE908 /* NSString+FBXMLSafeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBXMLSafeString.m"; sourceTree = "<group>"; };
+		0642BC4F25792549007FE908 /* XCUIElement+FBUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBUID.m"; sourceTree = "<group>"; };
+		0642BC5025792549007FE908 /* XCUIElement+FBForceTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBForceTouch.h"; sourceTree = "<group>"; };
+		0642BC5125792549007FE908 /* FBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAlert.h; sourceTree = "<group>"; };
+		0642BC5225792549007FE908 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0642BC5325792549007FE908 /* FBSpringboardApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSpringboardApplication.m; sourceTree = "<group>"; };
+		0642BCE22579262A007FE908 /* Test2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0642BCE42579262A007FE908 /* Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
+		0642BCE62579262A007FE908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0642BCEE257926E0007FE908 /* XCTWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTWaiter.h; sourceTree = "<group>"; };
+		0642BCEF257926E0007FE908 /* XCDeviceEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDeviceEvent.h; sourceTree = "<group>"; };
+		0642BCF0257926E0007FE908 /* _XCTestExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BCF1257926E0007FE908 /* XCSourceCodeRecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeRecording.h; sourceTree = "<group>"; };
+		0642BCF2257926E0007FE908 /* XCTestObservation-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestObservation-Protocol.h"; sourceTree = "<group>"; };
+		0642BCF3257926E0007FE908 /* XCUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplication.h; sourceTree = "<group>"; };
+		0642BCF4257926E0007FE908 /* _XCTNSNotificationExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTNSNotificationExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BCF5257926E0007FE908 /* XCTestObservationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObservationCenter.h; sourceTree = "<group>"; };
+		0642BCF6257926E0007FE908 /* XCSourceCodeTreeNodeEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeTreeNodeEnumerator.h; sourceTree = "<group>"; };
+		0642BCF7257926E0007FE908 /* XCTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestObserver.h; sourceTree = "<group>"; };
+		0642BCF8257926E0007FE908 /* XCTRunnerDaemonSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTRunnerDaemonSession.h; sourceTree = "<group>"; };
+		0642BCF9257926E0007FE908 /* XCPointerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPointerEvent.h; sourceTree = "<group>"; };
+		0642BCFA257926E0007FE908 /* XCTTestRunSessionDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTTestRunSessionDelegate-Protocol.h"; sourceTree = "<group>"; };
+		0642BCFB257926E0007FE908 /* _XCTWaiterImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTWaiterImpl.h; sourceTree = "<group>"; };
+		0642BCFC257926E0007FE908 /* XCUIElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElement.h; sourceTree = "<group>"; };
+		0642BCFD257926E0007FE908 /* XCTestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestConfiguration.h; sourceTree = "<group>"; };
+		0642BCFE257926E0007FE908 /* _XCTestCaseInterruptionException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestCaseInterruptionException.h; sourceTree = "<group>"; };
+		0642BCFF257926E0007FE908 /* XCUIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIDevice.h; sourceTree = "<group>"; };
+		0642BD00257926E0007FE908 /* UIGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BD01257926E0007FE908 /* XCTestManager_IDEInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_IDEInterface-Protocol.h"; sourceTree = "<group>"; };
+		0642BD02257926E0007FE908 /* XCKeyboardKeyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardKeyMap.h; sourceTree = "<group>"; };
+		0642BD03257926E0007FE908 /* XCEventGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCEventGenerator.h; sourceTree = "<group>"; };
+		0642BD04257926E0007FE908 /* XCTRunnerIDESession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTRunnerIDESession.h; sourceTree = "<group>"; };
+		0642BD05257926E0007FE908 /* XCAXClient_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAXClient_iOS.h; sourceTree = "<group>"; };
+		0642BD06257926E0007FE908 /* XCElementSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCElementSnapshot.h; sourceTree = "<group>"; };
+		0642BD07257926E0007FE908 /* XCApplicationMonitor_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationMonitor_iOS.h; sourceTree = "<group>"; };
+		0642BD08257926E0007FE908 /* XCTWaiterDelegatePrivate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTWaiterDelegatePrivate-Protocol.h"; sourceTree = "<group>"; };
+		0642BD09257926E0007FE908 /* XCKeyboardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardLayout.h; sourceTree = "<group>"; };
+		0642BD0A257926E0007FE908 /* XCTMetric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTMetric.h; sourceTree = "<group>"; };
+		0642BD0B257926E0007FE908 /* XCTDarwinNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTDarwinNotificationExpectation.h; sourceTree = "<group>"; };
+		0642BD0C257926E0007FE908 /* XCTNSPredicateExpectationObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTNSPredicateExpectationObject-Protocol.h"; sourceTree = "<group>"; };
+		0642BD0D257926E0007FE908 /* XCTestMisuseObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestMisuseObserver.h; sourceTree = "<group>"; };
+		0642BD0E257926E0007FE908 /* _XCTNSPredicateExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTNSPredicateExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BD0F257926E0007FE908 /* XCUICoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUICoordinate.h; sourceTree = "<group>"; };
+		0642BD10257926E0007FE908 /* UISwipeGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwipeGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BD11257926E0007FE908 /* XCActivityRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCActivityRecord.h; sourceTree = "<group>"; };
+		0642BD12257926E0007FE908 /* XCTWaiterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTWaiterManager.h; sourceTree = "<group>"; };
+		0642BD13257926E0007FE908 /* XCTestDriverInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestDriverInterface-Protocol.h"; sourceTree = "<group>"; };
+		0642BD14257926E0007FE908 /* XCAccessibilityElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAccessibilityElement.h; sourceTree = "<group>"; };
+		0642BD15257926E0007FE908 /* _XCKVOExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCKVOExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BD16257926E0007FE908 /* XCTNSPredicateExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTNSPredicateExpectation.h; sourceTree = "<group>"; };
+		0642BD17257926E0007FE908 /* XCUIElementQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementQuery.h; sourceTree = "<group>"; };
+		0642BD18257926E0007FE908 /* XCUIRecorderTimingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderTimingMessage.h; sourceTree = "<group>"; };
+		0642BD19257926E0007FE908 /* XCKeyMappingPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyMappingPath.h; sourceTree = "<group>"; };
+		0642BD1A257926E0007FE908 /* XCTestManager_TestsInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_TestsInterface-Protocol.h"; sourceTree = "<group>"; };
+		0642BD1B257926E0007FE908 /* XCSymbolicationRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSymbolicationRecord.h; sourceTree = "<group>"; };
+		0642BD1C257926E0007FE908 /* XCUIRecorderNodeFinderMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderNodeFinderMatch.h; sourceTree = "<group>"; };
+		0642BD1D257926E0007FE908 /* XCUIRecorderNodeFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderNodeFinder.h; sourceTree = "<group>"; };
+		0642BD1E257926E0007FE908 /* XCUIApplicationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplicationImpl.h; sourceTree = "<group>"; };
+		0642BD1F257926E0007FE908 /* XCTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestContext.h; sourceTree = "<group>"; };
+		0642BD20257926E0007FE908 /* _XCTestSuiteImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestSuiteImplementation.h; sourceTree = "<group>"; };
+		0642BD21257926E0007FE908 /* _XCTDarwinNotificationExpectationImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTDarwinNotificationExpectationImplementation.h; sourceTree = "<group>"; };
+		0642BD22257926E0007FE908 /* XCApplicationQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationQuery.h; sourceTree = "<group>"; };
+		0642BD23257926E0007FE908 /* XCTestSuiteRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuiteRun.h; sourceTree = "<group>"; };
+		0642BD24257926E0007FE908 /* XCUIApplicationProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIApplicationProcess.h; sourceTree = "<group>"; };
+		0642BD25257926E0007FE908 /* XCTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuite.h; sourceTree = "<group>"; };
+		0642BD26257926E0007FE908 /* XCUIHitPointResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIHitPointResult.h; sourceTree = "<group>"; };
+		0642BD27257926E0007FE908 /* XCTWaiterManagement-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTWaiterManagement-Protocol.h"; sourceTree = "<group>"; };
+		0642BD28257926E0007FE908 /* XCPointerEventPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPointerEventPath.h; sourceTree = "<group>"; };
+		0642BD29257926E0007FE908 /* UILongPressGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILongPressGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BD2A257926E0007FE908 /* XCUIElementAsynchronousHandlerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementAsynchronousHandlerWrapper.h; sourceTree = "<group>"; };
+		0642BD2B257926E0007FE908 /* XCTestCaseSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCaseSuite.h; sourceTree = "<group>"; };
+		0642BD2C257926E0007FE908 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		0642BD2D257926E0007FE908 /* UIPanGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BD2E257926E0007FE908 /* XCTAsyncActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTAsyncActivity.h; sourceTree = "<group>"; };
+		0642BD2F257926E0007FE908 /* XCTAXClient-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTAXClient-Protocol.h"; sourceTree = "<group>"; };
+		0642BD30257926E0007FE908 /* XCTAutomationTarget-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTAutomationTarget-Protocol.h"; sourceTree = "<group>"; };
+		0642BD31257926E0007FE908 /* XCTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestLog.h; sourceTree = "<group>"; };
+		0642BD32257926E0007FE908 /* XCTWaiterDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTWaiterDelegate-Protocol.h"; sourceTree = "<group>"; };
+		0642BD33257926E0007FE908 /* XCTestManager_ManagerInterface-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestManager_ManagerInterface-Protocol.h"; sourceTree = "<group>"; };
+		0642BD34257926E0007FE908 /* XCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTest.h; sourceTree = "<group>"; };
+		0642BD35257926E0007FE908 /* _XCTestImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestImplementation.h; sourceTree = "<group>"; };
+		0642BD36257926E0007FE908 /* XCSynthesizedEventRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSynthesizedEventRecord.h; sourceTree = "<group>"; };
+		0642BD37257926E0007FE908 /* _XCTestObservationCenterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestObservationCenterImplementation.h; sourceTree = "<group>"; };
+		0642BD38257926E0007FE908 /* NSValue-XCTestAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue-XCTestAdditions.h"; sourceTree = "<group>"; };
+		0642BD39257926E0007FE908 /* XCSourceCodeTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSourceCodeTreeNode.h; sourceTree = "<group>"; };
+		0642BD3A257926E0007FE908 /* XCTRunnerAutomationSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTRunnerAutomationSession.h; sourceTree = "<group>"; };
+		0642BD3B257926E0007FE908 /* XCUIElementHitPointCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIElementHitPointCoordinate.h; sourceTree = "<group>"; };
+		0642BD3C257926E0007FE908 /* _XCTestCaseImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCTestCaseImplementation.h; sourceTree = "<group>"; };
+		0642BD3D257926E0007FE908 /* XCUIScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIScreen.h; sourceTree = "<group>"; };
+		0642BD3E257926E0007FE908 /* XCTestExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestExpectation.h; sourceTree = "<group>"; };
+		0642BD3F257926E0007FE908 /* NSString-XCTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-XCTAdditions.h"; sourceTree = "<group>"; };
+		0642BD40257926E0007FE908 /* XCSymbolicatorHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSymbolicatorHolder.h; sourceTree = "<group>"; };
+		0642BD41257926E0007FE908 /* XCTAsyncActivity-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTAsyncActivity-Protocol.h"; sourceTree = "<group>"; };
+		0642BD42257926E0007FE908 /* XCTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestRun.h; sourceTree = "<group>"; };
+		0642BD43257926E0007FE908 /* XCTestContextScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestContextScope.h; sourceTree = "<group>"; };
+		0642BD44257926E0007FE908 /* XCUIRecorderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUIRecorderUtilities.h; sourceTree = "<group>"; };
+		0642BD45257926E0007FE908 /* _XCInternalTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _XCInternalTestRun.h; sourceTree = "<group>"; };
+		0642BD46257926E0007FE908 /* XCTKVOExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTKVOExpectation.h; sourceTree = "<group>"; };
+		0642BD47257926E0007FE908 /* XCTestProbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestProbe.h; sourceTree = "<group>"; };
+		0642BD48257926E0007FE908 /* XCTestExpectationDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestExpectationDelegate-Protocol.h"; sourceTree = "<group>"; };
+		0642BD49257926E0007FE908 /* UITapGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BD4A257926E0007FE908 /* XCTNSNotificationExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTNSNotificationExpectation.h; sourceTree = "<group>"; };
+		0642BD4B257926E0007FE908 /* XCApplicationMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCApplicationMonitor.h; sourceTree = "<group>"; };
+		0642BD4C257926E0007FE908 /* XCTestCaseRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCaseRun.h; sourceTree = "<group>"; };
+		0642BD4D257926E0007FE908 /* XCTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCase.h; sourceTree = "<group>"; };
+		0642BD4E257926E0007FE908 /* UIPinchGestureRecognizer-RecordingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPinchGestureRecognizer-RecordingAdditions.h"; sourceTree = "<group>"; };
+		0642BD4F257926E0007FE908 /* XCTUIApplicationMonitor-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTUIApplicationMonitor-Protocol.h"; sourceTree = "<group>"; };
+		0642BD50257926E0007FE908 /* XCTestExpectationWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestExpectationWaiter.h; sourceTree = "<group>"; };
+		0642BD51257926E0007FE908 /* XCTestWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestWaiter.h; sourceTree = "<group>"; };
+		0642BD52257926E0007FE908 /* XCTTestRunSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTTestRunSession.h; sourceTree = "<group>"; };
+		0642BD53257926E0007FE908 /* XCKeyboardInputSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCKeyboardInputSolver.h; sourceTree = "<group>"; };
+		0642BD54257926E0007FE908 /* XCTestDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestDriver.h; sourceTree = "<group>"; };
+		0642BD55257926E0007FE908 /* XCDebugLogDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCDebugLogDelegate-Protocol.h"; sourceTree = "<group>"; };
+		0642BD57257926E0007FE908 /* WebDriverAgentLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDriverAgentLib.h; sourceTree = "<group>"; };
+		0642BD58257926E0007FE908 /* FBApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBApplication.h; sourceTree = "<group>"; };
+		0642BD59257926E0007FE908 /* FBSpringboardApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSpringboardApplication.h; sourceTree = "<group>"; };
+		0642BD5A257926E0007FE908 /* FBAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAlert.m; sourceTree = "<group>"; };
+		0642BD5B257926E0007FE908 /* FBApplicationProcessProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBApplicationProcessProxy.h; sourceTree = "<group>"; };
+		0642BD5D257926E0007FE908 /* FBXPathCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXPathCreator.h; sourceTree = "<group>"; };
+		0642BD5E257926E0007FE908 /* FBElementTypeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementTypeTransformer.h; sourceTree = "<group>"; };
+		0642BD5F257926E0007FE908 /* FBClassChainQueryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBClassChainQueryParser.h; sourceTree = "<group>"; };
+		0642BD60257926E0007FE908 /* FBXCodeCompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXCodeCompatibility.m; sourceTree = "<group>"; };
+		0642BD61257926E0007FE908 /* FBXPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXPath.m; sourceTree = "<group>"; };
+		0642BD62257926E0007FE908 /* FBKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKeyboard.m; sourceTree = "<group>"; };
+		0642BD63257926E0007FE908 /* XCTestPrivateSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestPrivateSymbols.h; sourceTree = "<group>"; };
+		0642BD64257926E0007FE908 /* FBRunLoopSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRunLoopSpinner.h; sourceTree = "<group>"; };
+		0642BD65257926E0007FE908 /* FBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLogger.m; sourceTree = "<group>"; };
+		0642BD66257926E0007FE908 /* FBElementHitPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementHitPoint.h; sourceTree = "<group>"; };
+		0642BD67257926E0007FE908 /* FBXCTestDaemonsProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCTestDaemonsProxy.h; sourceTree = "<group>"; };
+		0642BD68257926E0007FE908 /* FBXCTestCaseImplementationFailureHoldingProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXCTestCaseImplementationFailureHoldingProxy.m; sourceTree = "<group>"; };
+		0642BD69257926E0007FE908 /* NSPredicate+FBFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPredicate+FBFormat.m"; sourceTree = "<group>"; };
+		0642BD6A257926E0007FE908 /* FBRuntimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRuntimeUtils.h; sourceTree = "<group>"; };
+		0642BD6B257926E0007FE908 /* FBFailureProofTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFailureProofTestCase.m; sourceTree = "<group>"; };
+		0642BD6C257926E0007FE908 /* FBErrorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBErrorBuilder.h; sourceTree = "<group>"; };
+		0642BD6D257926E0007FE908 /* FBMathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMathUtils.m; sourceTree = "<group>"; };
+		0642BD6E257926E0007FE908 /* FBDebugLogDelegateDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDebugLogDelegateDecorator.m; sourceTree = "<group>"; };
+		0642BD6F257926E0007FE908 /* FBPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPredicate.m; sourceTree = "<group>"; };
+		0642BD70257926E0007FE908 /* FBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConfiguration.h; sourceTree = "<group>"; };
+		0642BD71257926E0007FE908 /* FBElementHitPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementHitPoint.m; sourceTree = "<group>"; };
+		0642BD72257926E0007FE908 /* FBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLogger.h; sourceTree = "<group>"; };
+		0642BD73257926E0007FE908 /* XCTestPrivateSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTestPrivateSymbols.m; sourceTree = "<group>"; };
+		0642BD74257926E0007FE908 /* FBRunLoopSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRunLoopSpinner.m; sourceTree = "<group>"; };
+		0642BD75257926E0007FE908 /* FBKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKeyboard.h; sourceTree = "<group>"; };
+		0642BD76257926E0007FE908 /* FBXPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXPath.h; sourceTree = "<group>"; };
+		0642BD77257926E0007FE908 /* FBXCodeCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCodeCompatibility.h; sourceTree = "<group>"; };
+		0642BD78257926E0007FE908 /* FBXPath-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBXPath-Private.h"; sourceTree = "<group>"; };
+		0642BD79257926E0007FE908 /* FBClassChainQueryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBClassChainQueryParser.m; sourceTree = "<group>"; };
+		0642BD7A257926E0007FE908 /* FBXPathCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXPathCreator.m; sourceTree = "<group>"; };
+		0642BD7B257926E0007FE908 /* FBElementTypeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementTypeTransformer.m; sourceTree = "<group>"; };
+		0642BD7C257926E0007FE908 /* FBXCTestCaseImplementationFailureHoldingProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCTestCaseImplementationFailureHoldingProxy.h; sourceTree = "<group>"; };
+		0642BD7D257926E0007FE908 /* FBXCTestDaemonsProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXCTestDaemonsProxy.m; sourceTree = "<group>"; };
+		0642BD7E257926E0007FE908 /* FBMathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMathUtils.h; sourceTree = "<group>"; };
+		0642BD7F257926E0007FE908 /* FBErrorBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBErrorBuilder.m; sourceTree = "<group>"; };
+		0642BD80257926E0007FE908 /* FBFailureProofTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFailureProofTestCase.h; sourceTree = "<group>"; };
+		0642BD81257926E0007FE908 /* FBRuntimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRuntimeUtils.m; sourceTree = "<group>"; };
+		0642BD82257926E0007FE908 /* NSPredicate+FBFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPredicate+FBFormat.h"; sourceTree = "<group>"; };
+		0642BD83257926E0007FE908 /* FBConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBConfiguration.m; sourceTree = "<group>"; };
+		0642BD84257926E0007FE908 /* FBPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPredicate.h; sourceTree = "<group>"; };
+		0642BD85257926E0007FE908 /* FBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMacros.h; sourceTree = "<group>"; };
+		0642BD86257926E0007FE908 /* FBDebugLogDelegateDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDebugLogDelegateDecorator.h; sourceTree = "<group>"; };
+		0642BD87257926E0007FE908 /* FBApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBApplication.m; sourceTree = "<group>"; };
+		0642BD89257926E0007FE908 /* FBInspectorCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBInspectorCommands.m; sourceTree = "<group>"; };
+		0642BD8A257926E0007FE908 /* FBFindElementCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFindElementCommands.m; sourceTree = "<group>"; };
+		0642BD8B257926E0007FE908 /* FBCustomCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCustomCommands.m; sourceTree = "<group>"; };
+		0642BD8C257926E0007FE908 /* FBOrientationCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOrientationCommands.h; sourceTree = "<group>"; };
+		0642BD8D257926E0007FE908 /* FBScreenshotCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBScreenshotCommands.h; sourceTree = "<group>"; };
+		0642BD8E257926E0007FE908 /* FBDebugCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDebugCommands.h; sourceTree = "<group>"; };
+		0642BD8F257926E0007FE908 /* FBAlertViewCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAlertViewCommands.h; sourceTree = "<group>"; };
+		0642BD90257926E0007FE908 /* FBUnknownCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUnknownCommands.h; sourceTree = "<group>"; };
+		0642BD91257926E0007FE908 /* FBTouchIDCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTouchIDCommands.h; sourceTree = "<group>"; };
+		0642BD92257926E0007FE908 /* FBSessionCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionCommands.h; sourceTree = "<group>"; };
+		0642BD93257926E0007FE908 /* FBElementCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementCommands.m; sourceTree = "<group>"; };
+		0642BD94257926E0007FE908 /* FBCustomCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCustomCommands.h; sourceTree = "<group>"; };
+		0642BD95257926E0007FE908 /* FBFindElementCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFindElementCommands.h; sourceTree = "<group>"; };
+		0642BD96257926E0007FE908 /* FBInspectorCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBInspectorCommands.h; sourceTree = "<group>"; };
+		0642BD97257926E0007FE908 /* FBAlertViewCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAlertViewCommands.m; sourceTree = "<group>"; };
+		0642BD98257926E0007FE908 /* FBDebugCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDebugCommands.m; sourceTree = "<group>"; };
+		0642BD99257926E0007FE908 /* FBOrientationCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBOrientationCommands.m; sourceTree = "<group>"; };
+		0642BD9A257926E0007FE908 /* FBScreenshotCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBScreenshotCommands.m; sourceTree = "<group>"; };
+		0642BD9B257926E0007FE908 /* FBUnknownCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBUnknownCommands.m; sourceTree = "<group>"; };
+		0642BD9C257926E0007FE908 /* FBElementCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementCommands.h; sourceTree = "<group>"; };
+		0642BD9D257926E0007FE908 /* FBSessionCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSessionCommands.m; sourceTree = "<group>"; };
+		0642BD9E257926E0007FE908 /* FBTouchIDCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTouchIDCommands.m; sourceTree = "<group>"; };
+		0642BDA0257926E0007FE908 /* FBElementCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementCache.m; sourceTree = "<group>"; };
+		0642BDA1257926E0007FE908 /* FBWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBWebServer.h; sourceTree = "<group>"; };
+		0642BDA2257926E0007FE908 /* FBResponseJSONPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBResponseJSONPayload.h; sourceTree = "<group>"; };
+		0642BDA3257926E0007FE908 /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		0642BDA4257926E0007FE908 /* FBRouteRequest-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBRouteRequest-Private.h"; sourceTree = "<group>"; };
+		0642BDA5257926E0007FE908 /* FBRouteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRouteRequest.h; sourceTree = "<group>"; };
+		0642BDA6257926E0007FE908 /* FBResponsePayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBResponsePayload.m; sourceTree = "<group>"; };
+		0642BDA7257926E0007FE908 /* FBExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBExceptionHandler.m; sourceTree = "<group>"; };
+		0642BDA8257926E0007FE908 /* FBElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElement.h; sourceTree = "<group>"; };
+		0642BDA9257926E0007FE908 /* FBElementUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBElementUtils.m; sourceTree = "<group>"; };
+		0642BDAA257926E0007FE908 /* FBRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRoute.h; sourceTree = "<group>"; };
+		0642BDAB257926E0007FE908 /* FBResponseFilePayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBResponseFilePayload.h; sourceTree = "<group>"; };
+		0642BDAC257926E0007FE908 /* FBResponseJSONPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBResponseJSONPayload.m; sourceTree = "<group>"; };
+		0642BDAD257926E0007FE908 /* FBWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBWebServer.m; sourceTree = "<group>"; };
+		0642BDAE257926E0007FE908 /* FBElementCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementCache.h; sourceTree = "<group>"; };
+		0642BDAF257926E0007FE908 /* FBCommandHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCommandHandler.h; sourceTree = "<group>"; };
+		0642BDB0257926E0007FE908 /* FBExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBExceptionHandler.h; sourceTree = "<group>"; };
+		0642BDB1257926E0007FE908 /* FBResponsePayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBResponsePayload.h; sourceTree = "<group>"; };
+		0642BDB2257926E0007FE908 /* FBSession-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSession-Private.h"; sourceTree = "<group>"; };
+		0642BDB3257926E0007FE908 /* FBRouteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRouteRequest.m; sourceTree = "<group>"; };
+		0642BDB4257926E0007FE908 /* FBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSession.m; sourceTree = "<group>"; };
+		0642BDB5257926E0007FE908 /* FBElementUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBElementUtils.h; sourceTree = "<group>"; };
+		0642BDB6257926E0007FE908 /* FBRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRoute.m; sourceTree = "<group>"; };
+		0642BDB7257926E0007FE908 /* FBCommandStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCommandStatus.h; sourceTree = "<group>"; };
+		0642BDB8257926E0007FE908 /* FBResponseFilePayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBResponseFilePayload.m; sourceTree = "<group>"; };
+		0642BDB9257926E0007FE908 /* FBApplicationProcessProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBApplicationProcessProxy.m; sourceTree = "<group>"; };
+		0642BDBB257926E0007FE908 /* XCUIElement+FBTyping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBTyping.h"; sourceTree = "<group>"; };
+		0642BDBC257926E0007FE908 /* XCUIElement+FBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBUtilities.m"; sourceTree = "<group>"; };
+		0642BDBD257926E0007FE908 /* XCElementSnapshot+FBHitPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCElementSnapshot+FBHitPoint.m"; sourceTree = "<group>"; };
+		0642BDBE257926E0007FE908 /* XCUIElement+FBPickerWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBPickerWheel.m"; sourceTree = "<group>"; };
+		0642BDBF257926E0007FE908 /* XCUIElement+FBScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBScrolling.m"; sourceTree = "<group>"; };
+		0642BDC0257926E0007FE908 /* XCUIElement+FBIsVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBIsVisible.h"; sourceTree = "<group>"; };
+		0642BDC1257926E0007FE908 /* XCUIElement+FBTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBTap.h"; sourceTree = "<group>"; };
+		0642BDC2257926E0007FE908 /* XCUIElement+FBClassChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBClassChain.m"; sourceTree = "<group>"; };
+		0642BDC3257926E0007FE908 /* XCUICoordinate+FBFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUICoordinate+FBFix.m"; sourceTree = "<group>"; };
+		0642BDC4257926E0007FE908 /* XCUIElement+FBWebDriverAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBWebDriverAttributes.m"; sourceTree = "<group>"; };
+		0642BDC5257926E0007FE908 /* XCUIElement+FBAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBAccessibility.h"; sourceTree = "<group>"; };
+		0642BDC6257926E0007FE908 /* NSString+FBVisualLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBVisualLength.m"; sourceTree = "<group>"; };
+		0642BDC7257926E0007FE908 /* NSExpression+FBFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSExpression+FBFormat.h"; sourceTree = "<group>"; };
+		0642BDC8257926E0007FE908 /* XCUIDevice+FBRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBRotation.h"; sourceTree = "<group>"; };
+		0642BDC9257926E0007FE908 /* XCUIDevice+FBHealthCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBHealthCheck.h"; sourceTree = "<group>"; };
+		0642BDCA257926E0007FE908 /* XCUIApplication+FBHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIApplication+FBHelpers.h"; sourceTree = "<group>"; };
+		0642BDCB257926E0007FE908 /* XCUIElement+FBUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBUID.h"; sourceTree = "<group>"; };
+		0642BDCC257926E0007FE908 /* XCUIElement+FBForceTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBForceTouch.m"; sourceTree = "<group>"; };
+		0642BDCD257926E0007FE908 /* NSString+FBXMLSafeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FBXMLSafeString.h"; sourceTree = "<group>"; };
+		0642BDCE257926E0007FE908 /* XCUIDevice+FBHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBHelpers.m"; sourceTree = "<group>"; };
+		0642BDCF257926E0007FE908 /* XCUIElement+FBFind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBFind.m"; sourceTree = "<group>"; };
+		0642BDD0257926E0007FE908 /* XCElementSnapshot+FBHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCElementSnapshot+FBHelpers.m"; sourceTree = "<group>"; };
+		0642BDD1257926E0007FE908 /* XCUIElement+FBScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBScrolling.h"; sourceTree = "<group>"; };
+		0642BDD2257926E0007FE908 /* XCElementSnapshot+FBHitPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCElementSnapshot+FBHitPoint.h"; sourceTree = "<group>"; };
+		0642BDD3257926E0007FE908 /* XCUIElement+FBPickerWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBPickerWheel.h"; sourceTree = "<group>"; };
+		0642BDD4257926E0007FE908 /* XCUIElement+FBTyping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBTyping.m"; sourceTree = "<group>"; };
+		0642BDD5257926E0007FE908 /* XCUIElement+FBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBUtilities.h"; sourceTree = "<group>"; };
+		0642BDD6257926E0007FE908 /* XCUIApplication+FBHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIApplication+FBHelpers.m"; sourceTree = "<group>"; };
+		0642BDD7257926E0007FE908 /* XCUIDevice+FBHealthCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBHealthCheck.m"; sourceTree = "<group>"; };
+		0642BDD8257926E0007FE908 /* NSExpression+FBFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSExpression+FBFormat.m"; sourceTree = "<group>"; };
+		0642BDD9257926E0007FE908 /* XCUIDevice+FBRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIDevice+FBRotation.m"; sourceTree = "<group>"; };
+		0642BDDA257926E0007FE908 /* NSString+FBVisualLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FBVisualLength.h"; sourceTree = "<group>"; };
+		0642BDDB257926E0007FE908 /* XCUIElement+FBAccessibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBAccessibility.m"; sourceTree = "<group>"; };
+		0642BDDC257926E0007FE908 /* XCUIElement+FBWebDriverAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBWebDriverAttributes.h"; sourceTree = "<group>"; };
+		0642BDDD257926E0007FE908 /* XCUICoordinate+FBFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUICoordinate+FBFix.h"; sourceTree = "<group>"; };
+		0642BDDE257926E0007FE908 /* XCUIElement+FBClassChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBClassChain.h"; sourceTree = "<group>"; };
+		0642BDDF257926E0007FE908 /* XCUIElement+FBTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBTap.m"; sourceTree = "<group>"; };
+		0642BDE0257926E0007FE908 /* XCUIElement+FBIsVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBIsVisible.m"; sourceTree = "<group>"; };
+		0642BDE1257926E0007FE908 /* XCElementSnapshot+FBHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCElementSnapshot+FBHelpers.h"; sourceTree = "<group>"; };
+		0642BDE2257926E0007FE908 /* XCUIElement+FBFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBFind.h"; sourceTree = "<group>"; };
+		0642BDE3257926E1007FE908 /* XCUIDevice+FBHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIDevice+FBHelpers.h"; sourceTree = "<group>"; };
+		0642BDE4257926E1007FE908 /* NSString+FBXMLSafeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FBXMLSafeString.m"; sourceTree = "<group>"; };
+		0642BDE5257926E1007FE908 /* XCUIElement+FBUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+FBUID.m"; sourceTree = "<group>"; };
+		0642BDE6257926E1007FE908 /* XCUIElement+FBForceTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+FBForceTouch.h"; sourceTree = "<group>"; };
+		0642BDE7257926E1007FE908 /* FBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAlert.h; sourceTree = "<group>"; };
+		0642BDE8257926E1007FE908 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0642BDE9257926E1007FE908 /* FBSpringboardApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSpringboardApplication.m; sourceTree = "<group>"; };
+		06CCF54A257775B5002F9B7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06CCF54B257775B5002F9B7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06CCF54D257775B5002F9B7A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		06CCF54E257775B5002F9B7A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		06CCF550257775B5002F9B7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06CCF551257775B5002F9B7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06CCF554257775B5002F9B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06CCF556257775B6002F9B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06CCF559257775B6002F9B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06CCF55B257775B6002F9B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CCF55C257775B6002F9B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0642BCDF2579262A007FE908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0631C79B2578D9AF00448272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0631C79C2578D9AF00448272 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0642BA452578DD74007FE908 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0642BA462578DD74007FE908 /* XCTestCase+XCUIInterruptionMonitoring.h */,
+				0642BA472578DD74007FE908 /* XCTestObservation.h */,
+				0642BA482578DD74007FE908 /* XCTWaiter.h */,
+				0642BA492578DD74007FE908 /* XCTMeasureOptions.h */,
+				0642BA4A2578DD74007FE908 /* XCTestAssertionsImpl.h */,
+				0642BA4B2578DD74007FE908 /* XCUISiriService.h */,
+				0642BA4C2578DD74007FE908 /* XCUIApplication.h */,
+				0642BA4D2578DD74007FE908 /* XCTestObservationCenter.h */,
+				0642BA4E2578DD74007FE908 /* XCTestObserver.h */,
+				0642BA4F2578DD74007FE908 /* XCUIScreenshot.h */,
+				0642BA502578DD74007FE908 /* XCUIScreenshotProviding.h */,
+				0642BA512578DD74007FE908 /* XCUIElement.h */,
+				0642BA522578DD74007FE908 /* XCUIDevice.h */,
+				0642BA532578DD74007FE908 /* XCUIKeyboardKeys.h */,
+				0642BA542578DD74007FE908 /* XCTActivity.h */,
+				0642BA552578DD74007FE908 /* XCUIElementTypeQueryProvider.h */,
+				0642BA562578DD74007FE908 /* XCTMetric.h */,
+				0642BA572578DD74007FE908 /* XCTDarwinNotificationExpectation.h */,
+				0642BA582578DD74007FE908 /* XCUICoordinate.h */,
+				0642BA592578DD74007FE908 /* XCUIElementTypes.h */,
+				0642BA5A2578DD74007FE908 /* XCTestDefines.h */,
+				0642BA5B2578DD74007FE908 /* XCTNSPredicateExpectation.h */,
+				0642BA5C2578DD74007FE908 /* XCUIElementQuery.h */,
+				0642BA5D2578DD74007FE908 /* XCTAttachmentLifetime.h */,
+				0642BA5E2578DD74007FE908 /* XCTestCase+AsynchronousTesting.h */,
+				0642BA5F2578DD74007FE908 /* XCAbstractTest.h */,
+				0642BA602578DD74007FE908 /* XCTestSuiteRun.h */,
+				0642BA612578DD74007FE908 /* XCTestSuite.h */,
+				0642BA622578DD74007FE908 /* XCUIRemote.h */,
+				0642BA632578DD74007FE908 /* XCTAttachment.h */,
+				0642BA642578DD74007FE908 /* XCTContext.h */,
+				0642BA652578DD74007FE908 /* XCUIElementAttributes.h */,
+				0642BA662578DD74007FE908 /* XCTestAssertions.h */,
+				0642BA672578DD74007FE908 /* XCTestLog.h */,
+				0642BA682578DD74007FE908 /* XCTest.h */,
+				0642BA692578DD74007FE908 /* XCUIScreen.h */,
+				0642BA6A2578DD74007FE908 /* XCTestExpectation.h */,
+				0642BA6B2578DD74007FE908 /* XCTest.apinotes */,
+				0642BA6C2578DD74007FE908 /* XCTestRun.h */,
+				0642BA6D2578DD74007FE908 /* XCTKVOExpectation.h */,
+				0642BA6E2578DD74007FE908 /* XCTestProbe.h */,
+				0642BA6F2578DD74007FE908 /* XCTNSNotificationExpectation.h */,
+				0642BA702578DD74007FE908 /* XCTestCaseRun.h */,
+				0642BA712578DD74007FE908 /* XCTestCase.h */,
+				0642BA722578DD74007FE908 /* XCTestErrors.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		0642BA7825791DBC007FE908 /* PrivateHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				0642BA7925791DBC007FE908 /* XCTest */,
+			);
+			path = PrivateHeaders;
+			sourceTree = "<group>";
+		};
+		0642BA7925791DBC007FE908 /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				0642BA7A25791DBC007FE908 /* XCTWaiter.h */,
+				0642BA7B25791DBC007FE908 /* XCDeviceEvent.h */,
+				0642BA7C25791DBC007FE908 /* _XCTestExpectationImplementation.h */,
+				0642BA7D25791DBC007FE908 /* XCSourceCodeRecording.h */,
+				0642BA7E25791DBC007FE908 /* XCTestObservation-Protocol.h */,
+				0642BA7F25791DBC007FE908 /* XCUIApplication.h */,
+				0642BA8025791DBC007FE908 /* _XCTNSNotificationExpectationImplementation.h */,
+				0642BA8125791DBC007FE908 /* XCTestObservationCenter.h */,
+				0642BA8225791DBC007FE908 /* XCSourceCodeTreeNodeEnumerator.h */,
+				0642BA8325791DBC007FE908 /* XCTestObserver.h */,
+				0642BA8425791DBC007FE908 /* XCTRunnerDaemonSession.h */,
+				0642BA8525791DBC007FE908 /* XCPointerEvent.h */,
+				0642BA8625791DBC007FE908 /* XCTTestRunSessionDelegate-Protocol.h */,
+				0642BA8725791DBC007FE908 /* _XCTWaiterImpl.h */,
+				0642BA8825791DBC007FE908 /* XCUIElement.h */,
+				0642BA8925791DBC007FE908 /* XCTestConfiguration.h */,
+				0642BA8A25791DBC007FE908 /* _XCTestCaseInterruptionException.h */,
+				0642BA8B25791DBC007FE908 /* XCUIDevice.h */,
+				0642BA8C25791DBC007FE908 /* UIGestureRecognizer-RecordingAdditions.h */,
+				0642BA8D25791DBC007FE908 /* XCTestManager_IDEInterface-Protocol.h */,
+				0642BA8E25791DBC007FE908 /* XCKeyboardKeyMap.h */,
+				0642BA8F25791DBC007FE908 /* XCEventGenerator.h */,
+				0642BA9025791DBC007FE908 /* XCTRunnerIDESession.h */,
+				0642BA9125791DBC007FE908 /* XCAXClient_iOS.h */,
+				0642BA9225791DBC007FE908 /* XCElementSnapshot.h */,
+				0642BA9325791DBC007FE908 /* XCApplicationMonitor_iOS.h */,
+				0642BA9425791DBC007FE908 /* XCTWaiterDelegatePrivate-Protocol.h */,
+				0642BA9525791DBC007FE908 /* XCKeyboardLayout.h */,
+				0642BA9625791DBC007FE908 /* XCTMetric.h */,
+				0642BA9725791DBC007FE908 /* XCTDarwinNotificationExpectation.h */,
+				0642BA9825791DBC007FE908 /* XCTNSPredicateExpectationObject-Protocol.h */,
+				0642BA9925791DBC007FE908 /* XCTestMisuseObserver.h */,
+				0642BA9A25791DBC007FE908 /* _XCTNSPredicateExpectationImplementation.h */,
+				0642BA9B25791DBC007FE908 /* XCUICoordinate.h */,
+				0642BA9C25791DBC007FE908 /* UISwipeGestureRecognizer-RecordingAdditions.h */,
+				0642BA9D25791DBC007FE908 /* XCActivityRecord.h */,
+				0642BA9E25791DBC007FE908 /* XCTWaiterManager.h */,
+				0642BA9F25791DBC007FE908 /* XCTestDriverInterface-Protocol.h */,
+				0642BAA025791DBC007FE908 /* XCAccessibilityElement.h */,
+				0642BAA125791DBC007FE908 /* _XCKVOExpectationImplementation.h */,
+				0642BAA225791DBC007FE908 /* XCTNSPredicateExpectation.h */,
+				0642BAA325791DBC007FE908 /* XCUIElementQuery.h */,
+				0642BAA425791DBC007FE908 /* XCUIRecorderTimingMessage.h */,
+				0642BAA525791DBC007FE908 /* XCKeyMappingPath.h */,
+				0642BAA625791DBC007FE908 /* XCTestManager_TestsInterface-Protocol.h */,
+				0642BAA725791DBC007FE908 /* XCSymbolicationRecord.h */,
+				0642BAA825791DBC007FE908 /* XCUIRecorderNodeFinderMatch.h */,
+				0642BAA925791DBC007FE908 /* XCUIRecorderNodeFinder.h */,
+				0642BAAA25791DBC007FE908 /* XCUIApplicationImpl.h */,
+				0642BAAB25791DBC007FE908 /* XCTestContext.h */,
+				0642BAAC25791DBC007FE908 /* _XCTestSuiteImplementation.h */,
+				0642BAAD25791DBC007FE908 /* _XCTDarwinNotificationExpectationImplementation.h */,
+				0642BAAE25791DBC007FE908 /* XCApplicationQuery.h */,
+				0642BAAF25791DBC007FE908 /* XCTestSuiteRun.h */,
+				0642BAB025791DBC007FE908 /* XCUIApplicationProcess.h */,
+				0642BAB125791DBC007FE908 /* XCTestSuite.h */,
+				0642BAB225791DBC007FE908 /* XCUIHitPointResult.h */,
+				0642BAB325791DBC007FE908 /* XCTWaiterManagement-Protocol.h */,
+				0642BAB425791DBC007FE908 /* XCPointerEventPath.h */,
+				0642BAB525791DBC007FE908 /* UILongPressGestureRecognizer-RecordingAdditions.h */,
+				0642BAB625791DBC007FE908 /* XCUIElementAsynchronousHandlerWrapper.h */,
+				0642BAB725791DBC007FE908 /* XCTestCaseSuite.h */,
+				0642BAB825791DBC007FE908 /* CDStructures.h */,
+				0642BAB925791DBC007FE908 /* UIPanGestureRecognizer-RecordingAdditions.h */,
+				0642BABA25791DBC007FE908 /* XCTAsyncActivity.h */,
+				0642BABB25791DBC007FE908 /* XCTAXClient-Protocol.h */,
+				0642BABC25791DBC007FE908 /* XCTAutomationTarget-Protocol.h */,
+				0642BABD25791DBC007FE908 /* XCTestLog.h */,
+				0642BABE25791DBC007FE908 /* XCTWaiterDelegate-Protocol.h */,
+				0642BABF25791DBC007FE908 /* XCTestManager_ManagerInterface-Protocol.h */,
+				0642BAC025791DBC007FE908 /* XCTest.h */,
+				0642BAC125791DBC007FE908 /* _XCTestImplementation.h */,
+				0642BAC225791DBC007FE908 /* XCSynthesizedEventRecord.h */,
+				0642BAC325791DBC007FE908 /* _XCTestObservationCenterImplementation.h */,
+				0642BAC425791DBC007FE908 /* NSValue-XCTestAdditions.h */,
+				0642BAC525791DBC007FE908 /* XCSourceCodeTreeNode.h */,
+				0642BAC625791DBC007FE908 /* XCTRunnerAutomationSession.h */,
+				0642BAC725791DBC007FE908 /* XCUIElementHitPointCoordinate.h */,
+				0642BAC825791DBC007FE908 /* _XCTestCaseImplementation.h */,
+				0642BAC925791DBC007FE908 /* XCUIScreen.h */,
+				0642BACA25791DBC007FE908 /* XCTestExpectation.h */,
+				0642BACB25791DBC007FE908 /* NSString-XCTAdditions.h */,
+				0642BACC25791DBC007FE908 /* XCSymbolicatorHolder.h */,
+				0642BACD25791DBC007FE908 /* XCTAsyncActivity-Protocol.h */,
+				0642BACE25791DBC007FE908 /* XCTestRun.h */,
+				0642BACF25791DBC007FE908 /* XCTestContextScope.h */,
+				0642BAD025791DBC007FE908 /* XCUIRecorderUtilities.h */,
+				0642BAD125791DBC007FE908 /* _XCInternalTestRun.h */,
+				0642BAD225791DBC007FE908 /* XCTKVOExpectation.h */,
+				0642BAD325791DBC007FE908 /* XCTestProbe.h */,
+				0642BAD425791DBC007FE908 /* XCTestExpectationDelegate-Protocol.h */,
+				0642BAD525791DBC007FE908 /* UITapGestureRecognizer-RecordingAdditions.h */,
+				0642BAD625791DBC007FE908 /* XCTNSNotificationExpectation.h */,
+				0642BAD725791DBC007FE908 /* XCApplicationMonitor.h */,
+				0642BAD825791DBC007FE908 /* XCTestCaseRun.h */,
+				0642BAD925791DBC007FE908 /* XCTestCase.h */,
+				0642BADA25791DBC007FE908 /* UIPinchGestureRecognizer-RecordingAdditions.h */,
+				0642BADB25791DBC007FE908 /* XCTUIApplicationMonitor-Protocol.h */,
+				0642BADC25791DBC007FE908 /* XCTestExpectationWaiter.h */,
+				0642BADD25791DBC007FE908 /* XCTestWaiter.h */,
+				0642BADE25791DBC007FE908 /* XCTTestRunSession.h */,
+				0642BADF25791DBC007FE908 /* XCKeyboardInputSolver.h */,
+				0642BAE025791DBC007FE908 /* XCTestDriver.h */,
+				0642BAE125791DBC007FE908 /* XCDebugLogDelegate-Protocol.h */,
+			);
+			path = XCTest;
+			sourceTree = "<group>";
+		};
+		0642BBC025792549007FE908 /* WebDriverAgentLib */ = {
+			isa = PBXGroup;
+			children = (
+				0642BBC125792549007FE908 /* WebDriverAgentLib.h */,
+				0642BBC225792549007FE908 /* FBApplication.h */,
+				0642BBC325792549007FE908 /* FBSpringboardApplication.h */,
+				0642BBC425792549007FE908 /* FBAlert.m */,
+				0642BBC525792549007FE908 /* FBApplicationProcessProxy.h */,
+				0642BBC625792549007FE908 /* Utilities */,
+				0642BBF125792549007FE908 /* FBApplication.m */,
+				0642BBF225792549007FE908 /* Commands */,
+				0642BC0925792549007FE908 /* Routing */,
+				0642BC2325792549007FE908 /* FBApplicationProcessProxy.m */,
+				0642BC2425792549007FE908 /* Categories */,
+				0642BC5125792549007FE908 /* FBAlert.h */,
+				0642BC5225792549007FE908 /* Info.plist */,
+				0642BC5325792549007FE908 /* FBSpringboardApplication.m */,
+			);
+			path = WebDriverAgentLib;
+			sourceTree = "<group>";
+		};
+		0642BBC625792549007FE908 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0642BBC725792549007FE908 /* FBXPathCreator.h */,
+				0642BBC825792549007FE908 /* FBElementTypeTransformer.h */,
+				0642BBC925792549007FE908 /* FBClassChainQueryParser.h */,
+				0642BBCA25792549007FE908 /* FBXCodeCompatibility.m */,
+				0642BBCB25792549007FE908 /* FBXPath.m */,
+				0642BBCC25792549007FE908 /* FBKeyboard.m */,
+				0642BBCD25792549007FE908 /* XCTestPrivateSymbols.h */,
+				0642BBCE25792549007FE908 /* FBRunLoopSpinner.h */,
+				0642BBCF25792549007FE908 /* FBLogger.m */,
+				0642BBD025792549007FE908 /* FBElementHitPoint.h */,
+				0642BBD125792549007FE908 /* FBXCTestDaemonsProxy.h */,
+				0642BBD225792549007FE908 /* FBXCTestCaseImplementationFailureHoldingProxy.m */,
+				0642BBD325792549007FE908 /* NSPredicate+FBFormat.m */,
+				0642BBD425792549007FE908 /* FBRuntimeUtils.h */,
+				0642BBD525792549007FE908 /* FBFailureProofTestCase.m */,
+				0642BBD625792549007FE908 /* FBErrorBuilder.h */,
+				0642BBD725792549007FE908 /* FBMathUtils.m */,
+				0642BBD825792549007FE908 /* FBDebugLogDelegateDecorator.m */,
+				0642BBD925792549007FE908 /* FBPredicate.m */,
+				0642BBDA25792549007FE908 /* FBConfiguration.h */,
+				0642BBDB25792549007FE908 /* FBElementHitPoint.m */,
+				0642BBDC25792549007FE908 /* FBLogger.h */,
+				0642BBDD25792549007FE908 /* XCTestPrivateSymbols.m */,
+				0642BBDE25792549007FE908 /* FBRunLoopSpinner.m */,
+				0642BBDF25792549007FE908 /* FBKeyboard.h */,
+				0642BBE025792549007FE908 /* FBXPath.h */,
+				0642BBE125792549007FE908 /* FBXCodeCompatibility.h */,
+				0642BBE225792549007FE908 /* FBXPath-Private.h */,
+				0642BBE325792549007FE908 /* FBClassChainQueryParser.m */,
+				0642BBE425792549007FE908 /* FBXPathCreator.m */,
+				0642BBE525792549007FE908 /* FBElementTypeTransformer.m */,
+				0642BBE625792549007FE908 /* FBXCTestCaseImplementationFailureHoldingProxy.h */,
+				0642BBE725792549007FE908 /* FBXCTestDaemonsProxy.m */,
+				0642BBE825792549007FE908 /* FBMathUtils.h */,
+				0642BBE925792549007FE908 /* FBErrorBuilder.m */,
+				0642BBEA25792549007FE908 /* FBFailureProofTestCase.h */,
+				0642BBEB25792549007FE908 /* FBRuntimeUtils.m */,
+				0642BBEC25792549007FE908 /* NSPredicate+FBFormat.h */,
+				0642BBED25792549007FE908 /* FBConfiguration.m */,
+				0642BBEE25792549007FE908 /* FBPredicate.h */,
+				0642BBEF25792549007FE908 /* FBMacros.h */,
+				0642BBF025792549007FE908 /* FBDebugLogDelegateDecorator.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0642BBF225792549007FE908 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				0642BBF325792549007FE908 /* FBInspectorCommands.m */,
+				0642BBF425792549007FE908 /* FBFindElementCommands.m */,
+				0642BBF525792549007FE908 /* FBCustomCommands.m */,
+				0642BBF625792549007FE908 /* FBOrientationCommands.h */,
+				0642BBF725792549007FE908 /* FBScreenshotCommands.h */,
+				0642BBF825792549007FE908 /* FBDebugCommands.h */,
+				0642BBF925792549007FE908 /* FBAlertViewCommands.h */,
+				0642BBFA25792549007FE908 /* FBUnknownCommands.h */,
+				0642BBFB25792549007FE908 /* FBTouchIDCommands.h */,
+				0642BBFC25792549007FE908 /* FBSessionCommands.h */,
+				0642BBFD25792549007FE908 /* FBElementCommands.m */,
+				0642BBFE25792549007FE908 /* FBCustomCommands.h */,
+				0642BBFF25792549007FE908 /* FBFindElementCommands.h */,
+				0642BC0025792549007FE908 /* FBInspectorCommands.h */,
+				0642BC0125792549007FE908 /* FBAlertViewCommands.m */,
+				0642BC0225792549007FE908 /* FBDebugCommands.m */,
+				0642BC0325792549007FE908 /* FBOrientationCommands.m */,
+				0642BC0425792549007FE908 /* FBScreenshotCommands.m */,
+				0642BC0525792549007FE908 /* FBUnknownCommands.m */,
+				0642BC0625792549007FE908 /* FBElementCommands.h */,
+				0642BC0725792549007FE908 /* FBSessionCommands.m */,
+				0642BC0825792549007FE908 /* FBTouchIDCommands.m */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		0642BC0925792549007FE908 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				0642BC0A25792549007FE908 /* FBElementCache.m */,
+				0642BC0B25792549007FE908 /* FBWebServer.h */,
+				0642BC0C25792549007FE908 /* FBResponseJSONPayload.h */,
+				0642BC0D25792549007FE908 /* FBSession.h */,
+				0642BC0E25792549007FE908 /* FBRouteRequest-Private.h */,
+				0642BC0F25792549007FE908 /* FBRouteRequest.h */,
+				0642BC1025792549007FE908 /* FBResponsePayload.m */,
+				0642BC1125792549007FE908 /* FBExceptionHandler.m */,
+				0642BC1225792549007FE908 /* FBElement.h */,
+				0642BC1325792549007FE908 /* FBElementUtils.m */,
+				0642BC1425792549007FE908 /* FBRoute.h */,
+				0642BC1525792549007FE908 /* FBResponseFilePayload.h */,
+				0642BC1625792549007FE908 /* FBResponseJSONPayload.m */,
+				0642BC1725792549007FE908 /* FBWebServer.m */,
+				0642BC1825792549007FE908 /* FBElementCache.h */,
+				0642BC1925792549007FE908 /* FBCommandHandler.h */,
+				0642BC1A25792549007FE908 /* FBExceptionHandler.h */,
+				0642BC1B25792549007FE908 /* FBResponsePayload.h */,
+				0642BC1C25792549007FE908 /* FBSession-Private.h */,
+				0642BC1D25792549007FE908 /* FBRouteRequest.m */,
+				0642BC1E25792549007FE908 /* FBSession.m */,
+				0642BC1F25792549007FE908 /* FBElementUtils.h */,
+				0642BC2025792549007FE908 /* FBRoute.m */,
+				0642BC2125792549007FE908 /* FBCommandStatus.h */,
+				0642BC2225792549007FE908 /* FBResponseFilePayload.m */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		0642BC2425792549007FE908 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0642BC2525792549007FE908 /* XCUIElement+FBTyping.h */,
+				0642BC2625792549007FE908 /* XCUIElement+FBUtilities.m */,
+				0642BC2725792549007FE908 /* XCElementSnapshot+FBHitPoint.m */,
+				0642BC2825792549007FE908 /* XCUIElement+FBPickerWheel.m */,
+				0642BC2925792549007FE908 /* XCUIElement+FBScrolling.m */,
+				0642BC2A25792549007FE908 /* XCUIElement+FBIsVisible.h */,
+				0642BC2B25792549007FE908 /* XCUIElement+FBTap.h */,
+				0642BC2C25792549007FE908 /* XCUIElement+FBClassChain.m */,
+				0642BC2D25792549007FE908 /* XCUICoordinate+FBFix.m */,
+				0642BC2E25792549007FE908 /* XCUIElement+FBWebDriverAttributes.m */,
+				0642BC2F25792549007FE908 /* XCUIElement+FBAccessibility.h */,
+				0642BC3025792549007FE908 /* NSString+FBVisualLength.m */,
+				0642BC3125792549007FE908 /* NSExpression+FBFormat.h */,
+				0642BC3225792549007FE908 /* XCUIDevice+FBRotation.h */,
+				0642BC3325792549007FE908 /* XCUIDevice+FBHealthCheck.h */,
+				0642BC3425792549007FE908 /* XCUIApplication+FBHelpers.h */,
+				0642BC3525792549007FE908 /* XCUIElement+FBUID.h */,
+				0642BC3625792549007FE908 /* XCUIElement+FBForceTouch.m */,
+				0642BC3725792549007FE908 /* NSString+FBXMLSafeString.h */,
+				0642BC3825792549007FE908 /* XCUIDevice+FBHelpers.m */,
+				0642BC3925792549007FE908 /* XCUIElement+FBFind.m */,
+				0642BC3A25792549007FE908 /* XCElementSnapshot+FBHelpers.m */,
+				0642BC3B25792549007FE908 /* XCUIElement+FBScrolling.h */,
+				0642BC3C25792549007FE908 /* XCElementSnapshot+FBHitPoint.h */,
+				0642BC3D25792549007FE908 /* XCUIElement+FBPickerWheel.h */,
+				0642BC3E25792549007FE908 /* XCUIElement+FBTyping.m */,
+				0642BC3F25792549007FE908 /* XCUIElement+FBUtilities.h */,
+				0642BC4025792549007FE908 /* XCUIApplication+FBHelpers.m */,
+				0642BC4125792549007FE908 /* XCUIDevice+FBHealthCheck.m */,
+				0642BC4225792549007FE908 /* NSExpression+FBFormat.m */,
+				0642BC4325792549007FE908 /* XCUIDevice+FBRotation.m */,
+				0642BC4425792549007FE908 /* NSString+FBVisualLength.h */,
+				0642BC4525792549007FE908 /* XCUIElement+FBAccessibility.m */,
+				0642BC4625792549007FE908 /* XCUIElement+FBWebDriverAttributes.h */,
+				0642BC4725792549007FE908 /* XCUICoordinate+FBFix.h */,
+				0642BC4825792549007FE908 /* XCUIElement+FBClassChain.h */,
+				0642BC4925792549007FE908 /* XCUIElement+FBTap.m */,
+				0642BC4A25792549007FE908 /* XCUIElement+FBIsVisible.m */,
+				0642BC4B25792549007FE908 /* XCElementSnapshot+FBHelpers.h */,
+				0642BC4C25792549007FE908 /* XCUIElement+FBFind.h */,
+				0642BC4D25792549007FE908 /* XCUIDevice+FBHelpers.h */,
+				0642BC4E25792549007FE908 /* NSString+FBXMLSafeString.m */,
+				0642BC4F25792549007FE908 /* XCUIElement+FBUID.m */,
+				0642BC5025792549007FE908 /* XCUIElement+FBForceTouch.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0642BCE32579262A007FE908 /* Test2 */ = {
+			isa = PBXGroup;
+			children = (
+				0642BCE42579262A007FE908 /* Test2.m */,
+				0642BCE62579262A007FE908 /* Info.plist */,
+			);
+			path = Test2;
+			sourceTree = "<group>";
+		};
+		0642BCEC257926E0007FE908 /* PrivateHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				0642BCED257926E0007FE908 /* XCTest */,
+			);
+			path = PrivateHeaders;
+			sourceTree = "<group>";
+		};
+		0642BCED257926E0007FE908 /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				0642BCEE257926E0007FE908 /* XCTWaiter.h */,
+				0642BCEF257926E0007FE908 /* XCDeviceEvent.h */,
+				0642BCF0257926E0007FE908 /* _XCTestExpectationImplementation.h */,
+				0642BCF1257926E0007FE908 /* XCSourceCodeRecording.h */,
+				0642BCF2257926E0007FE908 /* XCTestObservation-Protocol.h */,
+				0642BCF3257926E0007FE908 /* XCUIApplication.h */,
+				0642BCF4257926E0007FE908 /* _XCTNSNotificationExpectationImplementation.h */,
+				0642BCF5257926E0007FE908 /* XCTestObservationCenter.h */,
+				0642BCF6257926E0007FE908 /* XCSourceCodeTreeNodeEnumerator.h */,
+				0642BCF7257926E0007FE908 /* XCTestObserver.h */,
+				0642BCF8257926E0007FE908 /* XCTRunnerDaemonSession.h */,
+				0642BCF9257926E0007FE908 /* XCPointerEvent.h */,
+				0642BCFA257926E0007FE908 /* XCTTestRunSessionDelegate-Protocol.h */,
+				0642BCFB257926E0007FE908 /* _XCTWaiterImpl.h */,
+				0642BCFC257926E0007FE908 /* XCUIElement.h */,
+				0642BCFD257926E0007FE908 /* XCTestConfiguration.h */,
+				0642BCFE257926E0007FE908 /* _XCTestCaseInterruptionException.h */,
+				0642BCFF257926E0007FE908 /* XCUIDevice.h */,
+				0642BD00257926E0007FE908 /* UIGestureRecognizer-RecordingAdditions.h */,
+				0642BD01257926E0007FE908 /* XCTestManager_IDEInterface-Protocol.h */,
+				0642BD02257926E0007FE908 /* XCKeyboardKeyMap.h */,
+				0642BD03257926E0007FE908 /* XCEventGenerator.h */,
+				0642BD04257926E0007FE908 /* XCTRunnerIDESession.h */,
+				0642BD05257926E0007FE908 /* XCAXClient_iOS.h */,
+				0642BD06257926E0007FE908 /* XCElementSnapshot.h */,
+				0642BD07257926E0007FE908 /* XCApplicationMonitor_iOS.h */,
+				0642BD08257926E0007FE908 /* XCTWaiterDelegatePrivate-Protocol.h */,
+				0642BD09257926E0007FE908 /* XCKeyboardLayout.h */,
+				0642BD0A257926E0007FE908 /* XCTMetric.h */,
+				0642BD0B257926E0007FE908 /* XCTDarwinNotificationExpectation.h */,
+				0642BD0C257926E0007FE908 /* XCTNSPredicateExpectationObject-Protocol.h */,
+				0642BD0D257926E0007FE908 /* XCTestMisuseObserver.h */,
+				0642BD0E257926E0007FE908 /* _XCTNSPredicateExpectationImplementation.h */,
+				0642BD0F257926E0007FE908 /* XCUICoordinate.h */,
+				0642BD10257926E0007FE908 /* UISwipeGestureRecognizer-RecordingAdditions.h */,
+				0642BD11257926E0007FE908 /* XCActivityRecord.h */,
+				0642BD12257926E0007FE908 /* XCTWaiterManager.h */,
+				0642BD13257926E0007FE908 /* XCTestDriverInterface-Protocol.h */,
+				0642BD14257926E0007FE908 /* XCAccessibilityElement.h */,
+				0642BD15257926E0007FE908 /* _XCKVOExpectationImplementation.h */,
+				0642BD16257926E0007FE908 /* XCTNSPredicateExpectation.h */,
+				0642BD17257926E0007FE908 /* XCUIElementQuery.h */,
+				0642BD18257926E0007FE908 /* XCUIRecorderTimingMessage.h */,
+				0642BD19257926E0007FE908 /* XCKeyMappingPath.h */,
+				0642BD1A257926E0007FE908 /* XCTestManager_TestsInterface-Protocol.h */,
+				0642BD1B257926E0007FE908 /* XCSymbolicationRecord.h */,
+				0642BD1C257926E0007FE908 /* XCUIRecorderNodeFinderMatch.h */,
+				0642BD1D257926E0007FE908 /* XCUIRecorderNodeFinder.h */,
+				0642BD1E257926E0007FE908 /* XCUIApplicationImpl.h */,
+				0642BD1F257926E0007FE908 /* XCTestContext.h */,
+				0642BD20257926E0007FE908 /* _XCTestSuiteImplementation.h */,
+				0642BD21257926E0007FE908 /* _XCTDarwinNotificationExpectationImplementation.h */,
+				0642BD22257926E0007FE908 /* XCApplicationQuery.h */,
+				0642BD23257926E0007FE908 /* XCTestSuiteRun.h */,
+				0642BD24257926E0007FE908 /* XCUIApplicationProcess.h */,
+				0642BD25257926E0007FE908 /* XCTestSuite.h */,
+				0642BD26257926E0007FE908 /* XCUIHitPointResult.h */,
+				0642BD27257926E0007FE908 /* XCTWaiterManagement-Protocol.h */,
+				0642BD28257926E0007FE908 /* XCPointerEventPath.h */,
+				0642BD29257926E0007FE908 /* UILongPressGestureRecognizer-RecordingAdditions.h */,
+				0642BD2A257926E0007FE908 /* XCUIElementAsynchronousHandlerWrapper.h */,
+				0642BD2B257926E0007FE908 /* XCTestCaseSuite.h */,
+				0642BD2C257926E0007FE908 /* CDStructures.h */,
+				0642BD2D257926E0007FE908 /* UIPanGestureRecognizer-RecordingAdditions.h */,
+				0642BD2E257926E0007FE908 /* XCTAsyncActivity.h */,
+				0642BD2F257926E0007FE908 /* XCTAXClient-Protocol.h */,
+				0642BD30257926E0007FE908 /* XCTAutomationTarget-Protocol.h */,
+				0642BD31257926E0007FE908 /* XCTestLog.h */,
+				0642BD32257926E0007FE908 /* XCTWaiterDelegate-Protocol.h */,
+				0642BD33257926E0007FE908 /* XCTestManager_ManagerInterface-Protocol.h */,
+				0642BD34257926E0007FE908 /* XCTest.h */,
+				0642BD35257926E0007FE908 /* _XCTestImplementation.h */,
+				0642BD36257926E0007FE908 /* XCSynthesizedEventRecord.h */,
+				0642BD37257926E0007FE908 /* _XCTestObservationCenterImplementation.h */,
+				0642BD38257926E0007FE908 /* NSValue-XCTestAdditions.h */,
+				0642BD39257926E0007FE908 /* XCSourceCodeTreeNode.h */,
+				0642BD3A257926E0007FE908 /* XCTRunnerAutomationSession.h */,
+				0642BD3B257926E0007FE908 /* XCUIElementHitPointCoordinate.h */,
+				0642BD3C257926E0007FE908 /* _XCTestCaseImplementation.h */,
+				0642BD3D257926E0007FE908 /* XCUIScreen.h */,
+				0642BD3E257926E0007FE908 /* XCTestExpectation.h */,
+				0642BD3F257926E0007FE908 /* NSString-XCTAdditions.h */,
+				0642BD40257926E0007FE908 /* XCSymbolicatorHolder.h */,
+				0642BD41257926E0007FE908 /* XCTAsyncActivity-Protocol.h */,
+				0642BD42257926E0007FE908 /* XCTestRun.h */,
+				0642BD43257926E0007FE908 /* XCTestContextScope.h */,
+				0642BD44257926E0007FE908 /* XCUIRecorderUtilities.h */,
+				0642BD45257926E0007FE908 /* _XCInternalTestRun.h */,
+				0642BD46257926E0007FE908 /* XCTKVOExpectation.h */,
+				0642BD47257926E0007FE908 /* XCTestProbe.h */,
+				0642BD48257926E0007FE908 /* XCTestExpectationDelegate-Protocol.h */,
+				0642BD49257926E0007FE908 /* UITapGestureRecognizer-RecordingAdditions.h */,
+				0642BD4A257926E0007FE908 /* XCTNSNotificationExpectation.h */,
+				0642BD4B257926E0007FE908 /* XCApplicationMonitor.h */,
+				0642BD4C257926E0007FE908 /* XCTestCaseRun.h */,
+				0642BD4D257926E0007FE908 /* XCTestCase.h */,
+				0642BD4E257926E0007FE908 /* UIPinchGestureRecognizer-RecordingAdditions.h */,
+				0642BD4F257926E0007FE908 /* XCTUIApplicationMonitor-Protocol.h */,
+				0642BD50257926E0007FE908 /* XCTestExpectationWaiter.h */,
+				0642BD51257926E0007FE908 /* XCTestWaiter.h */,
+				0642BD52257926E0007FE908 /* XCTTestRunSession.h */,
+				0642BD53257926E0007FE908 /* XCKeyboardInputSolver.h */,
+				0642BD54257926E0007FE908 /* XCTestDriver.h */,
+				0642BD55257926E0007FE908 /* XCDebugLogDelegate-Protocol.h */,
+			);
+			path = XCTest;
+			sourceTree = "<group>";
+		};
+		0642BD56257926E0007FE908 /* WebDriverAgentLib */ = {
+			isa = PBXGroup;
+			children = (
+				0642BD57257926E0007FE908 /* WebDriverAgentLib.h */,
+				0642BD58257926E0007FE908 /* FBApplication.h */,
+				0642BD59257926E0007FE908 /* FBSpringboardApplication.h */,
+				0642BD5A257926E0007FE908 /* FBAlert.m */,
+				0642BD5B257926E0007FE908 /* FBApplicationProcessProxy.h */,
+				0642BD5C257926E0007FE908 /* Utilities */,
+				0642BD87257926E0007FE908 /* FBApplication.m */,
+				0642BD88257926E0007FE908 /* Commands */,
+				0642BD9F257926E0007FE908 /* Routing */,
+				0642BDB9257926E0007FE908 /* FBApplicationProcessProxy.m */,
+				0642BDBA257926E0007FE908 /* Categories */,
+				0642BDE7257926E1007FE908 /* FBAlert.h */,
+				0642BDE8257926E1007FE908 /* Info.plist */,
+				0642BDE9257926E1007FE908 /* FBSpringboardApplication.m */,
+			);
+			path = WebDriverAgentLib;
+			sourceTree = "<group>";
+		};
+		0642BD5C257926E0007FE908 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0642BD5D257926E0007FE908 /* FBXPathCreator.h */,
+				0642BD5E257926E0007FE908 /* FBElementTypeTransformer.h */,
+				0642BD5F257926E0007FE908 /* FBClassChainQueryParser.h */,
+				0642BD60257926E0007FE908 /* FBXCodeCompatibility.m */,
+				0642BD61257926E0007FE908 /* FBXPath.m */,
+				0642BD62257926E0007FE908 /* FBKeyboard.m */,
+				0642BD63257926E0007FE908 /* XCTestPrivateSymbols.h */,
+				0642BD64257926E0007FE908 /* FBRunLoopSpinner.h */,
+				0642BD65257926E0007FE908 /* FBLogger.m */,
+				0642BD66257926E0007FE908 /* FBElementHitPoint.h */,
+				0642BD67257926E0007FE908 /* FBXCTestDaemonsProxy.h */,
+				0642BD68257926E0007FE908 /* FBXCTestCaseImplementationFailureHoldingProxy.m */,
+				0642BD69257926E0007FE908 /* NSPredicate+FBFormat.m */,
+				0642BD6A257926E0007FE908 /* FBRuntimeUtils.h */,
+				0642BD6B257926E0007FE908 /* FBFailureProofTestCase.m */,
+				0642BD6C257926E0007FE908 /* FBErrorBuilder.h */,
+				0642BD6D257926E0007FE908 /* FBMathUtils.m */,
+				0642BD6E257926E0007FE908 /* FBDebugLogDelegateDecorator.m */,
+				0642BD6F257926E0007FE908 /* FBPredicate.m */,
+				0642BD70257926E0007FE908 /* FBConfiguration.h */,
+				0642BD71257926E0007FE908 /* FBElementHitPoint.m */,
+				0642BD72257926E0007FE908 /* FBLogger.h */,
+				0642BD73257926E0007FE908 /* XCTestPrivateSymbols.m */,
+				0642BD74257926E0007FE908 /* FBRunLoopSpinner.m */,
+				0642BD75257926E0007FE908 /* FBKeyboard.h */,
+				0642BD76257926E0007FE908 /* FBXPath.h */,
+				0642BD77257926E0007FE908 /* FBXCodeCompatibility.h */,
+				0642BD78257926E0007FE908 /* FBXPath-Private.h */,
+				0642BD79257926E0007FE908 /* FBClassChainQueryParser.m */,
+				0642BD7A257926E0007FE908 /* FBXPathCreator.m */,
+				0642BD7B257926E0007FE908 /* FBElementTypeTransformer.m */,
+				0642BD7C257926E0007FE908 /* FBXCTestCaseImplementationFailureHoldingProxy.h */,
+				0642BD7D257926E0007FE908 /* FBXCTestDaemonsProxy.m */,
+				0642BD7E257926E0007FE908 /* FBMathUtils.h */,
+				0642BD7F257926E0007FE908 /* FBErrorBuilder.m */,
+				0642BD80257926E0007FE908 /* FBFailureProofTestCase.h */,
+				0642BD81257926E0007FE908 /* FBRuntimeUtils.m */,
+				0642BD82257926E0007FE908 /* NSPredicate+FBFormat.h */,
+				0642BD83257926E0007FE908 /* FBConfiguration.m */,
+				0642BD84257926E0007FE908 /* FBPredicate.h */,
+				0642BD85257926E0007FE908 /* FBMacros.h */,
+				0642BD86257926E0007FE908 /* FBDebugLogDelegateDecorator.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0642BD88257926E0007FE908 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				0642BD89257926E0007FE908 /* FBInspectorCommands.m */,
+				0642BD8A257926E0007FE908 /* FBFindElementCommands.m */,
+				0642BD8B257926E0007FE908 /* FBCustomCommands.m */,
+				0642BD8C257926E0007FE908 /* FBOrientationCommands.h */,
+				0642BD8D257926E0007FE908 /* FBScreenshotCommands.h */,
+				0642BD8E257926E0007FE908 /* FBDebugCommands.h */,
+				0642BD8F257926E0007FE908 /* FBAlertViewCommands.h */,
+				0642BD90257926E0007FE908 /* FBUnknownCommands.h */,
+				0642BD91257926E0007FE908 /* FBTouchIDCommands.h */,
+				0642BD92257926E0007FE908 /* FBSessionCommands.h */,
+				0642BD93257926E0007FE908 /* FBElementCommands.m */,
+				0642BD94257926E0007FE908 /* FBCustomCommands.h */,
+				0642BD95257926E0007FE908 /* FBFindElementCommands.h */,
+				0642BD96257926E0007FE908 /* FBInspectorCommands.h */,
+				0642BD97257926E0007FE908 /* FBAlertViewCommands.m */,
+				0642BD98257926E0007FE908 /* FBDebugCommands.m */,
+				0642BD99257926E0007FE908 /* FBOrientationCommands.m */,
+				0642BD9A257926E0007FE908 /* FBScreenshotCommands.m */,
+				0642BD9B257926E0007FE908 /* FBUnknownCommands.m */,
+				0642BD9C257926E0007FE908 /* FBElementCommands.h */,
+				0642BD9D257926E0007FE908 /* FBSessionCommands.m */,
+				0642BD9E257926E0007FE908 /* FBTouchIDCommands.m */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		0642BD9F257926E0007FE908 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				0642BDA0257926E0007FE908 /* FBElementCache.m */,
+				0642BDA1257926E0007FE908 /* FBWebServer.h */,
+				0642BDA2257926E0007FE908 /* FBResponseJSONPayload.h */,
+				0642BDA3257926E0007FE908 /* FBSession.h */,
+				0642BDA4257926E0007FE908 /* FBRouteRequest-Private.h */,
+				0642BDA5257926E0007FE908 /* FBRouteRequest.h */,
+				0642BDA6257926E0007FE908 /* FBResponsePayload.m */,
+				0642BDA7257926E0007FE908 /* FBExceptionHandler.m */,
+				0642BDA8257926E0007FE908 /* FBElement.h */,
+				0642BDA9257926E0007FE908 /* FBElementUtils.m */,
+				0642BDAA257926E0007FE908 /* FBRoute.h */,
+				0642BDAB257926E0007FE908 /* FBResponseFilePayload.h */,
+				0642BDAC257926E0007FE908 /* FBResponseJSONPayload.m */,
+				0642BDAD257926E0007FE908 /* FBWebServer.m */,
+				0642BDAE257926E0007FE908 /* FBElementCache.h */,
+				0642BDAF257926E0007FE908 /* FBCommandHandler.h */,
+				0642BDB0257926E0007FE908 /* FBExceptionHandler.h */,
+				0642BDB1257926E0007FE908 /* FBResponsePayload.h */,
+				0642BDB2257926E0007FE908 /* FBSession-Private.h */,
+				0642BDB3257926E0007FE908 /* FBRouteRequest.m */,
+				0642BDB4257926E0007FE908 /* FBSession.m */,
+				0642BDB5257926E0007FE908 /* FBElementUtils.h */,
+				0642BDB6257926E0007FE908 /* FBRoute.m */,
+				0642BDB7257926E0007FE908 /* FBCommandStatus.h */,
+				0642BDB8257926E0007FE908 /* FBResponseFilePayload.m */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		0642BDBA257926E0007FE908 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0642BDBB257926E0007FE908 /* XCUIElement+FBTyping.h */,
+				0642BDBC257926E0007FE908 /* XCUIElement+FBUtilities.m */,
+				0642BDBD257926E0007FE908 /* XCElementSnapshot+FBHitPoint.m */,
+				0642BDBE257926E0007FE908 /* XCUIElement+FBPickerWheel.m */,
+				0642BDBF257926E0007FE908 /* XCUIElement+FBScrolling.m */,
+				0642BDC0257926E0007FE908 /* XCUIElement+FBIsVisible.h */,
+				0642BDC1257926E0007FE908 /* XCUIElement+FBTap.h */,
+				0642BDC2257926E0007FE908 /* XCUIElement+FBClassChain.m */,
+				0642BDC3257926E0007FE908 /* XCUICoordinate+FBFix.m */,
+				0642BDC4257926E0007FE908 /* XCUIElement+FBWebDriverAttributes.m */,
+				0642BDC5257926E0007FE908 /* XCUIElement+FBAccessibility.h */,
+				0642BDC6257926E0007FE908 /* NSString+FBVisualLength.m */,
+				0642BDC7257926E0007FE908 /* NSExpression+FBFormat.h */,
+				0642BDC8257926E0007FE908 /* XCUIDevice+FBRotation.h */,
+				0642BDC9257926E0007FE908 /* XCUIDevice+FBHealthCheck.h */,
+				0642BDCA257926E0007FE908 /* XCUIApplication+FBHelpers.h */,
+				0642BDCB257926E0007FE908 /* XCUIElement+FBUID.h */,
+				0642BDCC257926E0007FE908 /* XCUIElement+FBForceTouch.m */,
+				0642BDCD257926E0007FE908 /* NSString+FBXMLSafeString.h */,
+				0642BDCE257926E0007FE908 /* XCUIDevice+FBHelpers.m */,
+				0642BDCF257926E0007FE908 /* XCUIElement+FBFind.m */,
+				0642BDD0257926E0007FE908 /* XCElementSnapshot+FBHelpers.m */,
+				0642BDD1257926E0007FE908 /* XCUIElement+FBScrolling.h */,
+				0642BDD2257926E0007FE908 /* XCElementSnapshot+FBHitPoint.h */,
+				0642BDD3257926E0007FE908 /* XCUIElement+FBPickerWheel.h */,
+				0642BDD4257926E0007FE908 /* XCUIElement+FBTyping.m */,
+				0642BDD5257926E0007FE908 /* XCUIElement+FBUtilities.h */,
+				0642BDD6257926E0007FE908 /* XCUIApplication+FBHelpers.m */,
+				0642BDD7257926E0007FE908 /* XCUIDevice+FBHealthCheck.m */,
+				0642BDD8257926E0007FE908 /* NSExpression+FBFormat.m */,
+				0642BDD9257926E0007FE908 /* XCUIDevice+FBRotation.m */,
+				0642BDDA257926E0007FE908 /* NSString+FBVisualLength.h */,
+				0642BDDB257926E0007FE908 /* XCUIElement+FBAccessibility.m */,
+				0642BDDC257926E0007FE908 /* XCUIElement+FBWebDriverAttributes.h */,
+				0642BDDD257926E0007FE908 /* XCUICoordinate+FBFix.h */,
+				0642BDDE257926E0007FE908 /* XCUIElement+FBClassChain.h */,
+				0642BDDF257926E0007FE908 /* XCUIElement+FBTap.m */,
+				0642BDE0257926E0007FE908 /* XCUIElement+FBIsVisible.m */,
+				0642BDE1257926E0007FE908 /* XCElementSnapshot+FBHelpers.h */,
+				0642BDE2257926E0007FE908 /* XCUIElement+FBFind.h */,
+				0642BDE3257926E1007FE908 /* XCUIDevice+FBHelpers.h */,
+				0642BDE4257926E1007FE908 /* NSString+FBXMLSafeString.m */,
+				0642BDE5257926E1007FE908 /* XCUIElement+FBUID.m */,
+				0642BDE6257926E1007FE908 /* XCUIElement+FBForceTouch.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		06CCF53E257775B5002F9B7A = {
+			isa = PBXGroup;
+			children = (
+				0642BBC025792549007FE908 /* WebDriverAgentLib */,
+				0642BA7825791DBC007FE908 /* PrivateHeaders */,
+				0642BCEC257926E0007FE908 /* PrivateHeaders */,
+				0642BD56257926E0007FE908 /* WebDriverAgentLib */,
+				06CCF549257775B5002F9B7A /* TestXCTest */,
+				0642BCE32579262A007FE908 /* Test2 */,
+				06CCF548257775B5002F9B7A /* Products */,
+				0631C79B2578D9AF00448272 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06CCF548257775B5002F9B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0642BCE22579262A007FE908 /* Test2.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06CCF549257775B5002F9B7A /* TestXCTest */ = {
+			isa = PBXGroup;
+			children = (
+				0642BA452578DD74007FE908 /* Headers */,
+				06CCF54A257775B5002F9B7A /* AppDelegate.h */,
+				06CCF54B257775B5002F9B7A /* AppDelegate.m */,
+				06CCF54D257775B5002F9B7A /* SceneDelegate.h */,
+				06CCF54E257775B5002F9B7A /* SceneDelegate.m */,
+				06CCF550257775B5002F9B7A /* ViewController.h */,
+				06CCF551257775B5002F9B7A /* ViewController.m */,
+				06CCF553257775B5002F9B7A /* Main.storyboard */,
+				06CCF556257775B6002F9B7A /* Assets.xcassets */,
+				06CCF558257775B6002F9B7A /* LaunchScreen.storyboard */,
+				06CCF55B257775B6002F9B7A /* Info.plist */,
+				06CCF55C257775B6002F9B7A /* main.m */,
+			);
+			path = TestXCTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0642BCE12579262A007FE908 /* Test2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0642BCE92579262A007FE908 /* Build configuration list for PBXNativeTarget "Test2" */;
+			buildPhases = (
+				0642BCDE2579262A007FE908 /* Sources */,
+				0642BCDF2579262A007FE908 /* Frameworks */,
+				0642BCE02579262A007FE908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test2;
+			productName = Test2;
+			productReference = 0642BCE22579262A007FE908 /* Test2.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CCF53F257775B5002F9B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = shumei;
+				TargetAttributes = {
+					0642BCE12579262A007FE908 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 06CCF542257775B5002F9B7A /* Build configuration list for PBXProject "TestXCTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06CCF53E257775B5002F9B7A;
+			productRefGroup = 06CCF548257775B5002F9B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0642BCE12579262A007FE908 /* Test2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0642BCE02579262A007FE908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0642BCDE2579262A007FE908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0642BCE52579262A007FE908 /* Test2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06CCF553257775B5002F9B7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CCF554257775B5002F9B7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06CCF558257775B6002F9B7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CCF559257775B6002F9B7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0642BCEA2579262A007FE908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKUDB433U9;
+				INFOPLIST_FILE = Test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shumei.Test2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0642BCEB2579262A007FE908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKUDB433U9;
+				INFOPLIST_FILE = Test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shumei.Test2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06CCF569257775B6002F9B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06CCF56A257775B6002F9B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0642BCE92579262A007FE908 /* Build configuration list for PBXNativeTarget "Test2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0642BCEA2579262A007FE908 /* Debug */,
+				0642BCEB2579262A007FE908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CCF542257775B5002F9B7A /* Build configuration list for PBXProject "TestXCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CCF569257775B6002F9B7A /* Debug */,
+				06CCF56A257775B6002F9B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06CCF53F257775B5002F9B7A /* Project object */;
+}
